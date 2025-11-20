@@ -1,0 +1,140 @@
+1:"$Sreact.fragment"
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+2:T2796,<p>Here are some software project best practices checklists for each phase of the project lifecycle:</p>
+<h3>Specifications / Requirements / RFP</h3>
+<ul>
+<li>Clearly define the project objectives and scope.</li>
+<li>Identify all stakeholders and their needs.</li>
+<li>Gather and analyze requirements from all stakeholders.</li>
+<li>Prioritize requirements based on importance and urgency.</li>
+<li>Document requirements in a clear, concise, and unambiguous manner.</li>
+<li>Validate requirements with stakeholders.</li>
+<li>Get approval from stakeholders before proceeding with the project.</li>
+<li>Work break down structure</li>
+<li>Was thought given to the system administration functionality?</li>
+<li>Was thought given to error handling?</li>
+<li>Does the specification clearly segregate the project into phases?</li>
+<li>Do all the phases have verifiable (and preferably undisputed) outcomes?</li>
+<li>Are all the phases shorter than a month? (1-3 weeks is optimal)</li>
+<li>During writing, are all unfinished parts clearly marked with (preferably red) &quot;XXX&quot; markers?</li>
+<li>Does the document refer to other documents as specifically as possible? (Document title, revision, page number)</li>
+<li>If there are interfaces, are the necessary data format specifications, API documentations all collected?</li>
+<li>Is the maximum load, bandwidth and cpu usage estimated?</li>
+<li>Are the security requirements specified?</li>
+<li>Are the operation and maintenance requirements specified?</li>
+<li>Are the education/training requirements specified?</li>
+<li>Are the installation/migration requirements specified?</li>
+<li>Is everything else collected? (Is there a brand manual? Color guide? Design manual? Deployment requirements? The firm&#39;s ISO procedures? Related legislation?)</li>
+<li>Are all the items (use cases, etc) atomic, and (where possible) measureable? (&quot;fast&quot; vs &quot;10 sec&quot;)</li>
+<li>Is the specification the shortest and simplest possible, while still complete? (Will it be actually read by stakeholders?)</li>
+</ul>
+<h3>Price quote / Bid</h3>
+<ul>
+<li>Understand the scope of work and requirements.</li>
+<li>Estimate the time and resources required to complete the project.</li>
+<li>Factor in all costs, including labor, materials, and overhead.</li>
+<li>Prepare a detailed and competitive bid.</li>
+<li>Include a breakdown of costs.</li>
+<li>Make sure the bid is clear, concise, and easy to understand.</li>
+<li>Be prepared to negotiate the bid with the client.</li>
+<li>Are the specifications accepted by all stakeholders?</li>
+<li>Does every (1-3 weeks long) phase have a price quote?</li>
+<li>Are all outcomes/deliverables of phases clearly defined and testable? (We&#39;re going to be paid based on these!)</li>
+<li>Has the architecture and framework of the system already been decided? (At a minimum, programming languages and frameworks)</li>
+<li>Will the allocated initial capital and the payment schedule together cover costs for the project&#39;s lifetime?</li>
+<li>Is there a quote for education/training?</li>
+<li>Is there a quote for installation/migration?</li>
+<li>Is there a quote for documentation (operating manual, user guide, etc)?</li>
+<li>Is there a quote for operations and maintenance? (Projects rarely end with typing in the last line of code.)</li>
+<li>Is the contract attached?</li>
+<li>Who&#39;s going to own the software that is about to be developed?</li>
+</ul>
+<h3>Project start</h3>
+<ul>
+<li>Kick off the project with a meeting to align all stakeholders on the objectives, scope, and timeline.</li>
+<li>Create a project plan that outlines the tasks, milestones, and deadlines.</li>
+<li>Assign resources to the project and establish clear roles and responsibilities.</li>
+<li>Set up a communication plan to keep stakeholders informed of the project&#39;s progress.</li>
+<li>Establish a risk management plan to identify, assess, and mitigate potential risks.</li>
+<li>Is the project still feasible?</li>
+<li>Are the specifications still the same as at the time of the last price quote?</li>
+<li>Has the client signed the contract? (Not &quot;promised he will sign&quot;. Actually signed.)</li>
+<li>Are there developers and a project leader assigned to the project? (Testers? Designer? Other experts as needed?)</li>
+<li>Do we have a reachable and decision-capable contact person at the client?</li>
+<li>Does the development team have a consensus and a clear vision about what will be the final delivery?</li>
+<li>Does everybody on the team know *as much as possible* about the client, the project, the constraints and the deadline?</li>
+<li>Schedule resources - Identifying key resources, considering resource constraints</li>
+<li>Risk management plan - known risk, risk analysis, risk response</li>
+<li>Choose collaboration platform</li>
+</ul>
+<h2>Checklists for development</h2>
+<h3>General principles</h3>
+<ul>
+<li>Does everyone remember the KISS principle (&quot;Keep it simple, stupid&quot;) and Occam&#39;s razor (&quot;the simplest explanation or strategy tends to be the best one&quot;)?</li>
+<li>Are unfinished/unpolished parts of the code clearly marked with &quot;XXX&quot;?</li>
+<li>Is UTF-8 used for everything? Databases. Tables. DB connections. Strings. Content-type. All should be UTF-8.</li>
+<li>Are compilation and any code generation automated? (Makefile, Ant, Maven, etc.)</li>
+<li>Does every piece of input that comes from an untrusted source (i.e. the user, or other systems) gets filtered? (Invalid characters, invalid type, etc).</li>
+<li>Do we prevent the users from uploading dangerous files? (php, cgi, exe, etc)</li>
+<li>Are all forms validated for consistency on the server side? (And, as needed, on the client side?)</li>
+<li>Are all the files in the project use the same identation? (Tabs vs spaces, ident size, etc.) K&amp;R/1TBS style is preferred.</li>
+<li>Is the code sufficiently (but not overly) commented?</li>
+</ul>
+<h4>Task Tracking</h4>
+<ul>
+<li>Break down large tasks into smaller, more manageable ones.</li>
+<li>Estimate the time required to complete each task.</li>
+<li>Assign tasks to team members based on their skills and availability.</li>
+<li>Track the progress of tasks using a task tracking tool.</li>
+<li>Update task status regularly.</li>
+<li>Identify and address bottlenecks as they arise.</li>
+<li>Does the team (or better, the company) has a task tracking system in place?</li>
+<li>Is the task tracking system painless enough to use? Does it help the job, or gets in the way?</li>
+<li>Is the task tracking system viewed often enough (daily) both by team members and management? (If not, how could you make it so?)</li>
+<li>Can everybody assign tasks to everybody? (I.e., developers assigning tasks to management and sales?)</li>
+<li>Is there some way to request acceptance testing?</li>
+</ul>
+<h3>Source control</h3>
+<ul>
+<li>Use a centralized repository to store all code and documentation.</li>
+<li>Commit code changes regularly.</li>
+<li>Use descriptive commit messages.</li>
+<li>Review code changes before committing them.</li>
+<li>Use branches to isolate work in progress.</li>
+<li>Use tags to mark releases.</li>
+<li>Is the project using source control? (It must be. No buts.)</li>
+<li>Is it easy to create a full working instance after checkout/clone? (Add an ./init.sh for setting permissions, Makefile for code generation, etc.)</li>
+<li>Is there a database initialization script in the repository? (Database structure must be under source control, too.)</li>
+<li>Do people pull/fetch/update before committing? (Most source control systems force you to, but not all. One should always integrate before commit.)</li>
+<li>Does every commit contains only one modification (a feature, a bug fix, etc)?</li>
+<li>Does every commit have a description? (Nobody will remember in three months what &quot;today&#39;s work&quot; was.)</li>
+<li>Was the new code tested (and automated tests run) before committing? (At some places, the person who commits code that breaks the compilation/autotests has to pay for next day&#39;s coffee/dinner.)</li>
+<li>If the database needed changing, was the db creation script modified and committed (preferably, together with the code changes)?</li>
+</ul>
+<h3>Testing</h3>
+<ul>
+<li>Develop a comprehensive testing plan that covers all aspects of the system.</li>
+<li>Write automated test cases to ensure the system works as expected.</li>
+<li>Perform manual testing to identify and fix potential bugs.</li>
+<li>Use a variety of testing techniques, such as unit testing, integration testing, and system testing.</li>
+<li>Track and report bugs to the development team.</li>
+<li>Fix bugs before deploying the system to production.</li>
+<li>Does the system have automated tests? (It seems like a waste of time, but good tests save a lot of time in the long run, especially during the end, when it will matter most.)</li>
+<li>Are the tests under source control?</li>
+<li>Do the tests work the system on as many components as possible? (i.e., for web-based systems tests that use the user interface directly are better than unit tests, since the former also tests the communication and the client-side javascript.)</li>
+<li>Are the tests work in a test database, that gets reset at the start to a known state?</li>
+</ul>
+<h2>Checklist for operations and maintenance</h2>
+<ul>
+<li>Is there an automated monitoring/alert system in place?</li>
+<li>Will you know if the automated monitoring system breaks down? (Is something watching the automated monitoring system?)</li>
+<li>Were the development features (error/exception display, default passwords, etc) deactivated in the deployed code?</li>
+<li>Does every operational project has one person who is responsible?</li>
+<li>Is that responsible person subscribed (email or RSS) to the security list of all the technologies used in that project?</li>
+<li>When making small modifications to operational code or configuration, is it always clearly noted why and when the modification happened, who did it, who asked for it, and, if feasible, what was the original?</li>
+<li>Are abandoned/dead projects taken offline?</li>
+</ul>
+0:{"buildId":"4QoYsqwyTWjEzQ-drpnjT","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-bold","children":"Software project best practices checklists"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","11/28/2023"," • Updated 11/28/2023"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","compliance",{"className":"px-2 py-1 text-xs highlight rounded","children":"compliance"}],["$","span","best-practices",{"className":"px-2 py-1 text-xs highlight rounded","children":"best-practices"}],["$","span","code-quality",{"className":"px-2 py-1 text-xs highlight rounded","children":"code-quality"}],["$","span","cost-optimization",{"className":"px-2 py-1 text-xs highlight rounded","children":"cost-optimization"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$2"}}]]}],null,"$L3"]}],"loading":null,"isPartial":false}
+3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
+6:null

@@ -1,0 +1,53 @@
+1:"$Sreact.fragment"
+3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+2:T560,<p><a href="angular-architecture.png"><img src="angular-architecture.png" alt=""></a></p>
+<p>Angular application architecture  </p>
+<h2>Component</h2>
+<ul>
+<li><p>Control a part of UI</p>
+</li>
+<li><p>Defined using the @Component decorator</p>
+</li>
+<li><p>Contains</p>
+</li>
+<li><p>template: loads view for the component</p>
+</li>
+<li><p>Stylesheet: define look and feel</p>
+</li>
+<li><p>Class: business logic for component</p>
+</li>
+<li><p>ng generate component productList</p>
+</li>
+</ul>
+<h2>Module</h2>
+<ul>
+<li><p>Group component </p>
+</li>
+<li><p>Module decides whether the components, directives, etc can be used by others or not</p>
+</li>
+<li><p>There is two types of module exists in Angular</p>
+</li>
+<li><p>Root Module: </p>
+</li>
+<li><p>Every app can have only one root module.</p>
+</li>
+<li><p>Imports Browser Module</p>
+</li>
+<li><p>Defined inside app.module.ts</p>
+</li>
+<li><p>Feature Module</p>
+</li>
+<li><p>mg generate module product-list</p>
+</li>
+</ul>
+<h2>Services</h2>
+<ul>
+<li>Services are objects which get initiated only once during the lifetime of an application.</li>
+<li>The main objective of the service to share data</li>
+<li>Defined using a @Injectable decorator</li>
+<li>A function defined inside a service can be invoked from any component or directive by just importing the service.</li>
+<li>ng generate service product-service</li>
+</ul>
+0:{"buildId":"4QoYsqwyTWjEzQ-drpnjT","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-bold","children":"Angular Components, Modules and Services"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","11/23/2020"," • Updated 11/23/2020"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","angular",{"className":"px-2 py-1 text-xs highlight rounded","children":"angular"}],["$","span","architecture",{"className":"px-2 py-1 text-xs highlight rounded","children":"architecture"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$2"}}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null

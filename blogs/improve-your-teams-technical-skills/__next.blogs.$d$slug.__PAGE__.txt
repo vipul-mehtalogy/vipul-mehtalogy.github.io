@@ -1,0 +1,58 @@
+1:"$Sreact.fragment"
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+2:Tf8d,<p>Some examples for each of the six strategies to improve your team&#39;s technical skills:</p>
+<h3>Have a learning plan:</h3>
+<p>A learning plan is a roadmap for how your team will acquire new skills and knowledge. It should identify the skills that are important for the team to have, as well as the resources and activities that will be used to acquire those skills.</p>
+<h4>Examples of learning plan resources and activities:</h4>
+<ul>
+<li>Online courses: There are many online courses available that can teach your team new skills. Some popular platforms for online courses include Coursera, Udemy, and edX.</li>
+<li>Books and articles: Encourage your team to read books and articles on relevant topics. There are also many blogs and websites that publish high-quality technical content.</li>
+<li>Conferences and workshops: Attend conferences and workshops to learn about new technologies and trends.</li>
+<li>Mentorship: Pair your team members with mentors who can provide them with guidance and support.</li>
+</ul>
+<h3>Pair programming:</h3>
+<p>Pair programming is a software development practice in which two programmers work together at one workstation. One programmer (the driver) writes code while the other programmer (the navigator) reviews the code and provides suggestions.</p>
+<h4>Benefits of pair programming:</h4>
+<ul>
+<li>Improved code quality: Pair programming can help to improve the quality of code by identifying and fixing bugs early on.</li>
+<li>Knowledge sharing: Pair programming can help to share knowledge and skills among team members.</li>
+<li>Improved communication: Pair programming can help to improve communication and teamwork among team members.</li>
+</ul>
+<h3>Code reviews:</h3>
+<p>Code reviews are a process in which programmers review each other&#39;s code to identify and fix bugs, improve code quality, and share knowledge.</p>
+<h4>How to conduct effective code reviews:</h4>
+<ul>
+<li>Set clear expectations for code reviews.</li>
+<li>Provide constructive feedback.</li>
+<li>Focus on improving the code, not criticizing the programmer.</li>
+<li>Use a code review tool to track changes and comments.</li>
+</ul>
+<h3>Lunch and Learns:</h3>
+<p>Lunch and Learns are informal sessions where team members can learn about new topics. They are typically held during lunch and last for about an hour.</p>
+<h4>Topics for Lunch and Learns:</h4>
+<ul>
+<li>New technologies and trends: Learn about new technologies and trends that are relevant to your team&#39;s work.</li>
+<li>Coding techniques: Learn about new coding techniques and best practices.</li>
+<li>Project-related topics: Discuss topics that are relevant to your team&#39;s current projects.</li>
+</ul>
+<h3>Team documentation sessions:</h3>
+<p>Team documentation sessions are a time for team members to work together to create and update documentation for your team&#39;s projects.</p>
+<h4>Benefits of team documentation sessions:</h4>
+<ul>
+<li>Improved communication: Documentation can help to improve communication among team members.</li>
+<li>Improved knowledge sharing: Documentation can help to share knowledge among team members.</li>
+<li>Reduced risk of errors: Documentation can help to reduce the risk of errors by providing a clear understanding of the project.</li>
+</ul>
+<h3>Short-term coding jams:</h3>
+<p>Coding jams are short-term events where programmers work together to solve a specific problem or create a new piece of software.</p>
+<h4>Benefits of coding jams:</h4>
+<ul>
+<li>Improved problem-solving skills: Coding jams can help to improve problem-solving skills.</li>
+<li>Creativity: Coding jams can help to foster creativity and innovation.</li>
+<li>Teamwork: Coding jams can help to improve teamwork.</li>
+</ul>
+<p>By implementing these strategies, you can help your team to continuously learn and grow, and become more proficient in the latest technologies and trends. This will help your team to deliver high-quality software that meets the needs of your users.</p>
+0:{"buildId":"4QoYsqwyTWjEzQ-drpnjT","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-bold","children":"Improve your team's technical skills"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","11/28/2023"," • Updated 11/28/2023"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","best-practices",{"className":"px-2 py-1 text-xs highlight rounded","children":"best-practices"}],["$","span","cost-optimization",{"className":"px-2 py-1 text-xs highlight rounded","children":"cost-optimization"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$2"}}]]}],null,"$L3"]}],"loading":null,"isPartial":false}
+3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
+6:null

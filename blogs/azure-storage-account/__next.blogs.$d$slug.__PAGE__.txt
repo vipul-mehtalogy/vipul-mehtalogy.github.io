@@ -1,0 +1,155 @@
+1:"$Sreact.fragment"
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+2:T1648,<p>Storage can be used for 2 purpose</p>
+<ol>
+<li>To store files</li>
+<li>Backend to VM</li>
+</ol>
+<p>By default, VM runs on a managed storage account</p>
+<ol>
+<li>Managed Storage Account: Abstraction over storage account.</li>
+<li>Unmanaged Storage Account</li>
+</ol>
+<h2>Storage account properties</h2>
+<ol>
+<li><p>Subscription</p>
+</li>
+<li><p>Resource Group</p>
+</li>
+<li><p>Name</p>
+</li>
+<li><p>Location: Keep it close to your application or other PaaS services.</p>
+</li>
+<li><p>Performance: SSD vs HDD. If you choose the Premium account type you can&#39;t choose the access tier. Chosen at the time of creation, can&#39;t be changed from later from hot to premium or cool to premium.</p>
+</li>
+<li><p>Replication: </p>
+</li>
+<li><p>Locally Redundant Storage: up to 3 copies of files in the same data center.</p>
+</li>
+<li><p>Geo Redundant Storage: 6 copies of files across 2 data center (within region pair, having fastest speed using fiber optic cable)</p>
+</li>
+<li><p>Read access geo-redundant storage: Secondary endpoint only to read files.</p>
+</li>
+<li><p>Zone redundant storage: across availability zone in the same region</p>
+</li>
+<li><p>Geo zone redundant: across the data center in a different region</p>
+</li>
+<li><p>Read access geo zone redundant: Secondary endpoint only to read files.</p>
+</li>
+<li><p>Access Tier: Storage life cycle: Can change the access tier of the blob from the configuration tab. and object using their properties.</p>
+</li>
+<li><p>Hot: Default</p>
+</li>
+<li><p>Cool: half the file for storage but twice the price for access. Can be set for each file on storage.Minimum time period associated with each object. Even if you remove the object before that minimum time period you will be charged for at least that minimum perios. 30 days minimum period, if removed before 30 days early deletion charges will be applicable.</p>
+</li>
+<li><p>Archive: Only applicable to object stored in blob storage. Should be used for very less accessible data as data retrieval (access) charges are too high but storage changes are 1/10 of hot. Most suitable for old backups. It takes a long time (hours) to retrieve the data. Data must remain to for at least 180 days, if removed before 180 days early deletion charges will be applicable. To read archived objects, first, rehydrate them to an online tier. Archive objects remain offline by default and not accessible but metadata remains online.</p>
+</li>
+<li><p>Networking</p>
+</li>
+<li><p>Public endpoint</p>
+</li>
+<li><p>Public endpoint selected network - You need to attach a virtual network.</p>
+</li>
+<li><p>Private endpoint</p>
+</li>
+</ol>
+<h3>Notes</h3>
+<ol>
+<li><p>By default storage account endpoint exposed via HTTPS.</p>
+</li>
+<li><p>By default soft delete is disabled on the storage account, when you enable it you can choose how long you want to retain deleted file so that recovery services can restore it back within a defined period (in days). as files are not getting deleted from storage so it will be charged for storage.</p>
+</li>
+<li><p>Data Lake Storage Gen 2: Support for big data storage.</p>
+</li>
+<li><p>You need to attach the Hadoop HDFS namespace</p>
+</li>
+<li><p>Endpoint:</p>
+</li>
+<li><p>We get 2 endpoints with the storage account</p>
+</li>
+<li><p>Primary: NMaster endpoint</p>
+</li>
+<li><p>Secondary: Read access endpoint</p>
+</li>
+</ol>
+<h2>Secure Your Storage</h2>
+<p>Secured via access keys. Azure provides 2 access keys with each account.  </p>
+<ol>
+<li><p>If you regenerate a key, the old key will not work.</p>
+</li>
+<li><p>Use only one key at a time </p>
+</li>
+<li><p>The access key is not a recommended approach for the production environment. Use shared access signature instead.</p>
+</li>
+<li><p>A shared access signature is a token that is signed by one of your keys and can be generated for individual services (Blob|File|Queue|Table), resource types(Services|Container|Object), with permission(read, write etc) along with a defined duration and whitelisted IP addresses.</p>
+</li>
+<li><p>When you generate a token you get</p>
+</li>
+<li><p>Connection string</p>
+</li>
+<li><p>SAS Token</p>
+</li>
+<li><p>Service URL</p>
+</li>
+</ol>
+<h2>Type of Storage</h2>
+<ol>
+<li><p>Container (Blob Storage)</p>
+</li>
+<li><p>Public Access level</p>
+</li>
+<li><p>Private: require access keys or SAS token</p>
+</li>
+<li><p>Blob: Allows anonymous access</p>
+</li>
+<li><p>Public: Allows anonymous access</p>
+</li>
+<li><p>Blob Type</p>
+</li>
+<li><p>Block blob: default</p>
+</li>
+<li><p>Page blob: When we want to update the file but not the entire file. Good for VM hard disk etc. </p>
+</li>
+<li><p>append blob: optimized for appending a file, like log files.</p>
+</li>
+<li></li>
+</ol>
+<ol start="3">
+<li>File System (SMB File Share)</li>
+<li>Table (NoSQL data store)</li>
+<li>Queue (Messaging System)</li>
+</ol>
+<h2>Pricing</h2>
+<p>early deletion charges applicable for hot and cool tier.</p>
+<ol>
+<li><p>Blocks</p>
+</li>
+<li><p>depends on access tier &amp; region</p>
+</li>
+<li><p>Price include: storage cost + operation(read | write | list | retrival etc)</p>
+</li>
+<li><p>additional data transfer cost if you opt for replication.</p>
+</li>
+<li><p>Data Lake</p>
+</li>
+<li><p>depends on file structure, redundancy, tier &amp; region</p>
+</li>
+<li><p>price = storage size + capacity reservation + No of transactions</p>
+</li>
+<li><p>Managed Disks</p>
+</li>
+<li><p>depends on tier, redundancy, access tier &amp; region</p>
+</li>
+<li><p>price = storage size + reservation + no of transactions</p>
+</li>
+<li><p>additional sync price if you synchronize files from Windows Servers to Azure Files.</p>
+</li>
+</ol>
+<h2>Question</h2>
+<ol>
+<li>How to get details of already generated SAS tokens?</li>
+</ol>
+0:{"buildId":"4QoYsqwyTWjEzQ-drpnjT","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-bold","children":"Azure Storage Account"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","5/21/2021"," • Updated 5/21/2021"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","Azure",{"className":"px-2 py-1 text-xs highlight rounded","children":"Azure"}],["$","span","Azure-CLI",{"className":"px-2 py-1 text-xs highlight rounded","children":"Azure-CLI"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$2"}}]]}],null,"$L3"]}],"loading":null,"isPartial":false}
+3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
+6:null

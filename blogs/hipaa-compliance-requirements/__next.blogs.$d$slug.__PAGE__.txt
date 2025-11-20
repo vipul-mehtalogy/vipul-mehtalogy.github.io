@@ -1,0 +1,71 @@
+1:"$Sreact.fragment"
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+2:Tc9a,<h2>Health Insurance Portability and Accountability Act</h2>
+<h3>What is Protected Health Insurance (PHI)</h3>
+<p>Personal health information is any personally identifiable information used, stored, transferred, or maintained by healthcare providers, and insurance, and their business associates. Include information such as</p>
+<ul>
+<li>Patient&#39;s name</li>
+<li>Date of birth</li>
+<li>Demographics</li>
+<li>Medical histories</li>
+<li>Health condition</li>
+<li>Insurance information</li>
+<li>Biometric identifies</li>
+<li>Email address</li>
+<li>Social security number</li>
+<li>Invoices</li>
+<li>Treatment details </li>
+<li>Medical test results</li>
+</ul>
+<p>Here we will mainly focus on information stored electronically like Audio, Video, Images &amp; Text-based information.</p>
+<ul>
+<li>PHI builds trust between patient &amp; health/care provider so that patients willing to share all the information needed for medical care.</li>
+<li>HIPPA ensures that the electronic exchange of data follows a common data format.</li>
+<li>PHI ensures what procedure and process to follow in order to maintain confidentiality, integrity, and availability of data.</li>
+<li>patients can authorize &amp; monitor data so that they can control what information shared with whom.</li>
+</ul>
+<h3>Electronic Data Interchange</h3>
+<p>Transactions and code sets standards: standardize data formats so that software cost can be reduced, and easy to adapt information between different health care providers. It includes formats for the below administrative and financial functions</p>
+<ul>
+<li>Health claims and equivalent encounter information</li>
+<li>Enrollment and dis-enrollment in a health plan</li>
+<li>Eligibility for health plan</li>
+<li>Health care payment and remittance advice</li>
+<li>Health plan premium payments</li>
+<li>Health claim status</li>
+<li>Referral certification and authorization</li>
+<li>Coordination of benefits</li>
+<li>First report of injury</li>
+</ul>
+<h3>Privacy Rule</h3>
+<ul>
+<li>Introduced to safeguard and ascertain patient&#39;s data</li>
+<li>Define how the patient&#39;s data can be used and disclosed</li>
+<li>Control or restrict the use and communication of information</li>
+<li>Request for disclosure history</li>
+<li>Access and review the information and can request corrections to health records</li>
+<li>Patients can request a copy of their medical records</li>
+<li>Patients can file complaints about misuse of information</li>
+</ul>
+<h3>Security Rule</h3>
+<ul>
+<li><p>Death with confidentiality, storage, and access to the protected health information</p>
+</li>
+<li><p>Ensures confidentiality, integrity, and availability of ePHI</p>
+</li>
+<li><p>American recovery and reinvestment act (ARRA) aimed at strengthening the privacy and security of protected health information and deals with </p>
+</li>
+<li><p>Breaches</p>
+</li>
+<li><p>Electronic health records (EHR)</p>
+</li>
+<li><p>Personal health records (PHR)</p>
+</li>
+<li><p>Health information technology for economic and clinical health act encourages the use of electronic health information</p>
+</li>
+</ul>
+<p>In the next blog, we will see how these HIPPA requirements can be translated technically for cloud-based health care solutions.</p>
+0:{"buildId":"4QoYsqwyTWjEzQ-drpnjT","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-bold","children":"HIPAA Compliance Requirements"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","4/30/2021"," • Updated 4/30/2021"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","compliance",{"className":"px-2 py-1 text-xs highlight rounded","children":"compliance"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$2"}}]]}],null,"$L3"]}],"loading":null,"isPartial":false}
+3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
+6:null

@@ -1,0 +1,211 @@
+1:"$Sreact.fragment"
+2:I[62319,["/_next/static/chunks/32e34275f7cabb57.js","/_next/static/chunks/56107793851a41ff.js"],"default"]
+3:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+4:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+5:I[71314,["/_next/static/chunks/32e34275f7cabb57.js","/_next/static/chunks/56107793851a41ff.js"],"default"]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+a:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+c:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+e:I[68027,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+:HL["/_next/static/chunks/e42ce66e4eb1b702.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"4QoYsqwyTWjEzQ-drpnjT","c":["","blogs","azure-kubernetes-high-level-architecture"],"q":"","i":false,"f":[[["",{"children":["blogs",{"children":[["slug","azure-kubernetes-high-level-architecture","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/e42ce66e4eb1b702.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/32e34275f7cabb57.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/56107793851a41ff.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"theme-blue geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased \n                    flex flex-col min-h-screen transition-colors","children":[["$","header",null,{"className":"sticky top-0 z-50 shadow-sm bg-white/80 backdrop-blur-md","children":["$","$L2",null,{}]}],["$","main",null,{"className":"flex-grow container mx-auto px-4 py-6","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L5",null,{}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$@b"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$8",null,{"name":"Next.Metadata","children":"$@d"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[]],"S":true}
+f:T1d37,<h1>High-Level Kubernetes Architecture</h1>
+<h1></h1>
+<p><a href="Kubernetes-Physical-Architecture.png"><img src="Kubernetes-Physical-Architecture.png" alt=""></a></p>
+<h2>What Kubernetes is?</h2>
+<p>Open-source container orchestration tool originally developed by Google. It helps managing applications that made up hundreds of thousands of containers and help to manage in different environments (physical, VM, cloud or hybrid).  </p>
+<h2>What problem does it solve?</h2>
+<p>The application development trend is moving from monolith to micro-services. Increased usage of containers using scripts and self-made tools in different environments is very complex. Demand for a proper way of managing those hundreds of containers raised the need to have container orchestration technologies. Kubernetes provides features like  </p>
+<ul>
+<li>High Availability</li>
+<li>Scalability</li>
+<li>Disaster recovery</li>
+</ul>
+<h3>Kubernetes cluster</h3>
+<ul>
+<li>Consist of multiple nodes. </li>
+<li>Set of worker machine nodes. Cluster shares the load. </li>
+<li>If one node goes down other nodes keep the application available.</li>
+</ul>
+<h3>Nodes</h3>
+<ul>
+<li><p>A server or virtual machine that can host k8s pod.  </p>
+</li>
+<li><p>Each node can have multiple pods on it</p>
+</li>
+</ul>
+<h3>Worker Node</h3>
+<ul>
+<li><p>A machine responsible to run containers. Have below Kubernetes components. Actually do the work</p>
+</li>
+<li><p>Pod  </p>
+</li>
+<li><p>Abstraction over containers</p>
+</li>
+<li><p>Host container runtime environment</p>
+</li>
+<li><p>Can have multiple container per pod but usually 1 container per pod</p>
+</li>
+<li><p>Runs container and some side service that is required to host the pod</p>
+</li>
+<li><p>Each pod gets its own IP address, pod communicate with each other using IP address.</p>
+</li>
+<li><p>If pod dies and re-created a new IP address is assigned. On such events it is very hard to communicate with pods. To come over of this situation service is used.</p>
+</li>
+<li><p>Service</p>
+</li>
+<li><p>Service have permanent IP address.</p>
+</li>
+<li><p>Every container pod will have its own service</p>
+</li>
+<li><p>Life-cycle of service and pod are not connected, so even if pod dies service and its IP address stay. This eases pod communication.</p>
+</li>
+<li><p>External Services open communication with pod to external world. Internal service allows pod to pod communication and helps to keep pods private with-in K8s cluster if not required to expose externally. Ingress</p>
+</li>
+<li><p>Internal DNS for K8s cluster. Request first goes to ingress and it does forwarding to service IP address  </p>
+</li>
+<li><p>Kubelet</p>
+</li>
+<li><p>Ensure the number of replica sets</p>
+</li>
+<li><p>Container runtime</p>
+</li>
+<li><p>To execute container images. The popular runtime is docker. Kubernetes also supports Rkt-io &amp; CRI-O, containerd</p>
+</li>
+<li><p>Kube-Proxy</p>
+</li>
+</ul>
+<h4>Master Node</h4>
+<ul>
+<li><p>Machine or set of machines responsible to run/execute below Kubernetes components. The master node is responsible for managing the cluster. If any node goes down the master node replaces it with another instance with the help of the controller.  </p>
+</li>
+<li><p>Manage worker node</p>
+</li>
+<li><p>Core Components  </p>
+</li>
+<li><p>ETCD</p>
+</li>
+<li><p>Key-value store. Externalize configuration.</p>
+</li>
+<li><p>Controller</p>
+</li>
+<li><p>The brain behind Kubernetes. Keep track of replica sets decides how to maintain the desired state.</p>
+</li>
+<li><p>Scheduler</p>
+</li>
+<li><p>Job Scheduler</p>
+</li>
+<li><p>Cron Scheduler</p>
+</li>
+<li><p>API Server</p>
+</li>
+<li><p>API Server is the gateway (frontend) to the Kubernetes cluster.</p>
+</li>
+<li><p>Exposes the REST interface to interact with Kubernetes components.</p>
+</li>
+<li><p>Validates and configure data for Kubernetes objects.</p>
+</li>
+<li><p>Command-line - kube-api [flag]</p>
+</li>
+<li><p>API Server components</p>
+</li>
+<li><p>API management - Expose REST API</p>
+</li>
+<li><p>API Path</p>
+</li>
+<li><p>API Transaction</p>
+</li>
+<li><p>API Discovery</p>
+</li>
+<li><p>Request processing - functionality that processes individual API request</p>
+</li>
+<li><p>Type of request [get | list | post | delete]</p>
+</li>
+<li><p>Life of request</p>
+</li>
+<li><p>AuthN</p>
+</li>
+<li><p>AuthZ / RBAC</p>
+</li>
+<li><p>Admission Control</p>
+</li>
+<li><p>Validate</p>
+</li>
+<li><p>Watch Operations</p>
+</li>
+<li><p>Encodings</p>
+</li>
+<li><p>Responses</p>
+</li>
+<li><p>Internal control loops - Perform necessary background operations for API Server.</p>
+</li>
+<li><p>Common Resource Definition(CRD) Control Loop</p>
+</li>
+</ul>
+<p>Core Components  </p>
+<p><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDPI8b4xXzipdvErtbARCorYXRXTdQERRCSVvesjVtARLXrmP0OY-_WKSIbGNZkCNlnsObUzCu-fT5kCsDVO6ty9wIm9W_68W_POYaYnvUsQt6BxFxe_qWNNDmoikHbbKpeghtvMqsTlU/s1600/Kubernetes+Components.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDPI8b4xXzipdvErtbARCorYXRXTdQERRCSVvesjVtARLXrmP0OY-_WKSIbGNZkCNlnsObUzCu-fT5kCsDVO6ty9wIm9W_68W_POYaYnvUsQt6BxFxe_qWNNDmoikHbbKpeghtvMqsTlU/w400-h370/Kubernetes+Components.png" alt="core components" title="cre components"></a></p>
+<p>Core Components</p>
+<h2>Kubernetes Physical Architecture</h2>
+<p><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghE3sC4-XVMjXxmGSOBYgrMbErBEsXy78F2JZoVh6zmiMn035Y5nTcKeFyuSjur8Pakz6VCnutIDn1W4bxPBC6EYZOF6FCp9L_jy33O-dbhFvorPucFL3nKD5ertrxhD51quof6IhgT_o/s1600/High+Level+Kubernetes+Infrastructure+%25282%2529.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghE3sC4-XVMjXxmGSOBYgrMbErBEsXy78F2JZoVh6zmiMn035Y5nTcKeFyuSjur8Pakz6VCnutIDn1W4bxPBC6EYZOF6FCp9L_jy33O-dbhFvorPucFL3nKD5ertrxhD51quof6IhgT_o/w400-h140/High+Level+Kubernetes+Infrastructure+%25282%2529.png" alt=""></a></p>
+<p>Kubernetes Physical Architecture</p>
+<h2>Logical Architecture</h2>
+<h3>Deployment</h3>
+<ul>
+<li><p>Replica Set</p>
+</li>
+<li><p>Pod</p>
+</li>
+<li><p>Container Runtime</p>
+</li>
+<li><p>Image</p>
+</li>
+<li><p>Fluentd - realtime distributed log collection service</p>
+</li>
+</ul>
+<h3>Service</h3>
+<ul>
+<li><p>Single access point for a group of pods</p>
+</li>
+<li><p>Provide consistent IP and port</p>
+</li>
+<li><p>Type of Service</p>
+</li>
+<li><p>NodePort</p>
+</li>
+<li><p>LocadBalancer</p>
+</li>
+</ul>
+<h3>Volume</h3>
+<ul>
+<li><p>K8s doesn&#39;t manage data persistance, must be managed externally like backup or replication  </p>
+</li>
+<li><p>A dictionary that can hold data</p>
+</li>
+<li><p>Component of the pod and not independent of it</p>
+</li>
+<li><p>Create in the pod specification</p>
+</li>
+<li><p>Can&#39;t be deleted its own</p>
+</li>
+<li><p>Accessible to all container on a pod</p>
+</li>
+<li><p>Pod dies --&gt; volume dies</p>
+</li>
+<li><p>Advance than docker volume</p>
+</li>
+</ul>
+<h3>DeamonSet</h3>
+<ul>
+<li>Stateful</li>
+</ul>
+<h2>Azure Kubernetes Service High-Level Architecture</h2>
+<p><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTWigCn5u23RqsHUnTVNnPeRM_cI9pLv53BRbsQkYNMPSsfMadc3d2TDQ2Ill-kcm1TEgM9euwoHzJt_FYqEt-3ldlDb_xa7lxuDnImSXIh36zWwBPJPYyuPNg1MduC-oMbUjboSfg9tY/s1600/AKS+Infra.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTWigCn5u23RqsHUnTVNnPeRM_cI9pLv53BRbsQkYNMPSsfMadc3d2TDQ2Ill-kcm1TEgM9euwoHzJt_FYqEt-3ldlDb_xa7lxuDnImSXIh36zWwBPJPYyuPNg1MduC-oMbUjboSfg9tY/w400-h179/AKS+Infra.png" alt=""></a></p>
+<p>Azure Kubernetes Service High-Level Architecture</p>
+6:["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-bold","children":"Azure Kubernetes High Level Architecture"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","3/17/2020"," • Updated 12/7/2020"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","Azure",{"className":"px-2 py-1 text-xs highlight rounded","children":"Azure"}],["$","span","DevOps",{"className":"px-2 py-1 text-xs highlight rounded","children":"DevOps"}],["$","span","Kubernetes",{"className":"px-2 py-1 text-xs highlight rounded","children":"Kubernetes"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$f"}}]]}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}]]
+10:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+d:[["$","title","0",{"children":"Azure Kubernetes High Level Architecture | Mehtalogy | Mehtalogy"}],["$","meta","1",{"name":"description","content":"Azure Kubernetes High Level Architecture"}],["$","meta","2",{"name":"author","content":"Mehtalogy"}],["$","link","3",{"rel":"manifest","href":"/site.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"keywords","content":"technology partner,software development,PWA developer,enterprise solutions,SME digital transformation,mobile app development,cloud modernization,Mehtalogy"}],["$","meta","5",{"name":"robots","content":"index, follow"}],["$","meta","6",{"property":"og:title","content":"Mehtalogy | Your Strategic Technology Partner"}],["$","meta","7",{"property":"og:description","content":"Empowering SMEs and enterprises with scalable software, mobile apps, PWAs, and long-term tech stewardship."}],["$","meta","8",{"property":"og:url","content":"https://mehtalogy.in"}],["$","meta","9",{"property":"og:site_name","content":"Mehtalogy"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:image","content":"https://mehtalogy.in/opengraph-image.png"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Mehtalogy Technology Partner Banner"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Mehtalogy | Technology Partner for SMEs & Enterprises"}],["$","meta","18",{"name":"twitter:description","content":"Building scalable digital products and long-term technology partnerships."}],["$","meta","19",{"name":"twitter:image","content":"https://mehtalogy.in/twitter-image.png"}],["$","link","20",{"rel":"shortcut icon","href":"/favicon.ico"}],["$","link","21",{"rel":"icon","href":"/favicon-32x32.png","sizes":"32x32","type":"image/png"}],["$","link","22",{"rel":"icon","href":"/favicon-16x16.png","sizes":"16x16","type":"image/png"}],["$","link","23",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png","sizes":"180x180","type":"image/png"}],["$","$L10","24",{}]]
+9:null

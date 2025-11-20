@@ -1,0 +1,38 @@
+1:"$Sreact.fragment"
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+2:Tce7,<p>An Azure Availability Set is a logical grouping of virtual machines (VMs) that allows Azure to understand how your application is built to provide for redundancy and availability. It is a way to improve the fault tolerance of your VMs by distributing them across multiple fault domains and update domains within an Azure region.</p>
+<h3>Benefits of Availability Sets</h3>
+<p>Increased availability: By distributing VMs across multiple fault domains, you can minimize the risk of downtime caused by hardware failures.</p>
+<p>Improved fault tolerance: If one fault domain fails, the remaining VMs in the Availability Set will continue to operate.</p>
+<p>Simplified management: You can manage all of the VMs in an Availability Set as a single group.</p>
+<h3>Cost of Availability Sets</h3>
+<p>There is no cost for the Availability Set itself. However, you will need to pay for the added VM instances. This is because you need to deploy at least two VMs in an Availability Set in order to take advantage of its fault tolerance capabilities.</p>
+<h3>Fault Domain</h3>
+<p>A fault domain is a physical separation of VMs within an Azure region. This means that no hardware failure will disrupt both VMs in a fault domain. Fault domains are typically based on power grids and network switches. </p>
+<h3>Update Domain</h3>
+<p>An update domain is a group of VMs that can be updated independently. This means that Azure can update one update domain of VMs without affecting any of the other update domains. Update domains are typically based on software deployment groups. </p>
+<h3>How to Create an Availability Set</h3>
+<p>To create an Availability Set, follow these steps:</p>
+<ul>
+<li>In the Azure portal, go to Virtual machines.</li>
+<li>Select Add.</li>
+<li>Under Availability options, select Availability set.</li>
+<li>In the Name box, enter a name for the Availability Set.</li>
+<li>Select the Region where you want to create the Availability Set.</li>
+<li>Select the Fault domain count. This is the number of fault domains that you want to use. The maximum number of fault domains is 3.</li>
+<li>Select the Update domain count. This is the number of update domains that you want to use. The maximum number of update domains is 5.</li>
+<li>Select Review + create.</li>
+<li>Review your settings and then select Create.</li>
+</ul>
+<h3>How to Use an Availability Set</h3>
+<p>To use an Availability Set, you will need to deploy two or more VMs to the Availability Set. When you deploy a VM to an Availability Set, Azure will automatically distribute the VM across the fault domains and update domains within the Availability Set.</p>
+<h3>Additional Considerations</h3>
+<p>Availability Sets do not protect against regional outages. If an entire Azure region experiences an outage, all of the VMs in that region will be unavailable.</p>
+<p>To protect against regional outages, you can use Azure regions with Availability Zones.</p>
+<p>Availability Sets are not supported for Azure VMs that are deployed to Azure Dedicated Hosts.</p>
+<h3>Conclusion</h3>
+<p>Azure Availability Sets are a valuable tool for improving the fault tolerance and availability of your Azure VMs. By using Availability Sets, you can minimize the risk of downtime and ensure that your applications are always available to your users.</p>
+0:{"buildId":"4QoYsqwyTWjEzQ-drpnjT","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-bold","children":"Availability Set"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","11/28/2023"," • Updated 11/28/2023"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","Azure",{"className":"px-2 py-1 text-xs highlight rounded","children":"Azure"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$2"}}]]}],null,"$L3"]}],"loading":null,"isPartial":false}
+3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
+6:null

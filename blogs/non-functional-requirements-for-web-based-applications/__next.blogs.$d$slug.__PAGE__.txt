@@ -1,0 +1,112 @@
+1:"$Sreact.fragment"
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+2:T1a73,<p>Application Security Design</p>
+<p>GDPR regulations for User Registration Data</p>
+<p>Authentication, Authorization</p>
+<p>Data Encryption during transfer/rest</p>
+<p>Data Validation</p>
+<p>Session Management</p>
+<p>Error Handling</p>
+<p>Threat Modelling</p>
+<p>Offline Caching</p>
+<p>Audit Trails/Logging</p>
+<p>Safety Review</p>
+<p>Sub Domain Setup/Deployment</p>
+<p>Cross browser compatibility/Device Compatibility testing/IOP?</p>
+<p>Performance/Performance Testing/Load Testing/Stress Testing</p>
+<p>Security/Security testing (OWASP Top 10?)</p>
+<p>Any other cybsersecurity requirement?</p>
+<p>Test Automation/Integration Testing Framework</p>
+<p>Third party API fitment</p>
+<p>non-functional requirements about security, fault tolerance, performance, evolvability</p>
+<p>· Project setup/skeleton </p>
+<p>· Kubernetes CI/CD poc. </p>
+<p>· Project Architecture -  HLD, lld, sdd, flow diagram.  </p>
+<p>· technology stack </p>
+<p>· application stack </p>
+<p>· Odata standard apis PoCs </p>
+<p>· Api endpoints.  </p>
+<p>· Datahub K.T(M.E.S integration) </p>
+<p>· PIM Domain model, MES domain model </p>
+<p>· Sample data investigation. </p>
+<p>· Monkey testing on all Partner apis  </p>
+<p>· Threat modelling. </p>
+<p>Non Functional Questions:</p>
+<p>- Service authentication (oAuth or certificate)?</p>
+<p>- How failures are planned while service integration.</p>
+<p>- Understand hosting scenario from product perspective.</p>
+<p>- Maintenance schedule, downtime for maintenance etc.</p>
+<p>- Versioning and backward compatibility.</p>
+<p>- Maximum parallel request support. Concurrent users</p>
+<p>a. Performance requirements:</p>
+<p>i. Response time for API &amp; UI: In general, any API or UI should be able to respond (server throughput) maximum within 2 seconds and average 1 second.</p>
+<p>ii. In case of some special operations where system need more than general response time must be specified in SLA terms.</p>
+<p>iii. Render time: Rendering of web pages must not block users. Resources like logos, thumbnail, JavaScripts, CSS &amp; images etc shall be optimized for best rendering.</p>
+<p>iv. Scalability / Capacity requirements (can be part of SLA) :</p>
+<ol>
+<li><p>Inexto shall provide number of users system can support (without effecting performance)</p>
+</li>
+<li><p>Inexto shall provide number of concurrent users system support (without effecting performance)</p>
+</li>
+</ol>
+<p>v. Minimum &amp; Maximum data size support per customer/system level. This information shall be provided by Inexto</p>
+<p>b. Maintenance requirements</p>
+<p>i. Downtime for maintenance schedule (must be defined in SLA by Inexto)</p>
+<p>ii. Data backup (like Database, Files etc…). It is mentioned in one of the data backup policy of Inexto</p>
+<p>iii. Azure Resource Backup (like VM backup if required)</p>
+<p>c. Stability Requirements</p>
+<p>i. Disaster recovery plan, MTTR, need to be defined in SLA by Inexto</p>
+<p>ii. Availability (need to refer to SLA)</p>
+<p>d. Security requirements </p>
+<p>i. Audit trail </p>
+<p>System that traces the detailed transactions relating to any item in system of records. Application shall be able to show what has happened to it, who did it and when (like transaction changes, before/after pictures) in case of change in state of resources or data.</p>
+<p>ii. Logging, tracing general requirements</p>
+<ol>
+<li><p>Log file retention must be configurable</p>
+</li>
+<li><p>Logs for all components should be available via a single location, i.e. an operator/developer should not have to bounce around to containers and systems to view and correlate logs</p>
+</li>
+<li><p>Logs entries should be accessed controlled, such that a user should only be able to view those logs to which they are authorized</p>
+</li>
+<li><p>Logs should be able to be viewed through one or more filters (think query)</p>
+</li>
+<li><p>Log context (source, component version, etc) must be available with each log message.</p>
+</li>
+<li><p>Log messages should provide information that is relevant to the operator, including identifying the user that invoked an action, the action, and parameters to that action</p>
+</li>
+<li><p>Log messages should contain complete sentences and thoughts and not be cryptic</p>
+</li>
+<li><p>User should be able to modify the verbosity (Trace | Info | Error | Fatal | Debug | Warning) of logging while the system is running</p>
+</li>
+<li><p>Log entries should be viewed in a single time zone (UTC)</p>
+</li>
+<li><p>Program level language exceptions and tracebacks/stack traces (error messages) should not be viewable (by default) to an operator</p>
+</li>
+<li><p>As an operator, user must be able to create an archive of log messages that can be transferred to a support organization; such as via email. This archive may be time-boxed and/or filtered</p>
+</li>
+<li><p>As an operator, user should be able to granularly control logging at the logical component level</p>
+</li>
+<li><p>Specific detailed log should have details of application events, Http Request Logs, application states and optionally may have SQL, debug information, Executing threads information, JavaScript errors.</p>
+</li>
+</ol>
+<p>iii. Data integrity</p>
+<ol>
+<li><p>System shall ensure security of data while transit and rest.</p>
+</li>
+<li><p>A data record, such as a description of a serialization asset, must be complete to satisfy the needs of all its consumers.</p>
+</li>
+<li><p>Proper data normalization and validation procedures shall be in place to ensure consistency of data. In case of concurrent user proper transactions must be in place to ensure concurrency. In case of concurrency failures users must be notified.</p>
+</li>
+<li><p>Environment parity: The purpose of applying rigor and discipline to environment parity is to give schneider and its customers the confidence that the application will work in lower (i.e, development and QA environment) and higher environment (i.e, production) . Separate DEV, pre-prod &amp; Prod environments shall be provided on Inexto hosted infrastructure keeping DEV, pre-prod &amp; Prod environments as similar as possible.</p>
+</li>
+<li><p>As agreed, a separate environment would be provided for penetration &amp; load testing</p>
+</li>
+<li><p>Policy shall be defined to access production environment which should define who can access the system, what procedures must be followed when accessing production system, log of access of resources &amp; data, logs about changes in resource and data etc. It must be approved by Schneider.</p>
+</li>
+<li><p>Adherence to compliance (if any from segment agreed in this agreement): we follow existing compliances by Inexto, discussing future marketing and customer requirements based on new standards and regulations.</p>
+</li>
+</ol>
+0:{"buildId":"4QoYsqwyTWjEzQ-drpnjT","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-bold","children":"Non functional requirements for web based applications"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","11/28/2023"," • Updated 11/28/2023"]}],false,["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$2"}}]]}],null,"$L3"]}],"loading":null,"isPartial":false}
+3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
+6:null

@@ -1,0 +1,20 @@
+1:"$Sreact.fragment"
+3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+2:T811,<p>A cross-cutting concern (also known as a cross-cutting feature or cross-functional requirement) is a concern that affects multiple parts of a software system in a non-modular way. This means that it is not possible to isolate the concern to a single module or layer of the system, and it can therefore be difficult to manage and maintain.</p>
+<h3>Some common examples of cross-cutting concerns include:</h3>
+<ul>
+<li>Security: Ensuring that the system is secure from unauthorized access, use, disclosure, disruption, modification, or destruction.</li>
+<li>Performance: Ensuring that the system is responsive, efficient, and scalable.</li>
+<li>Usability: Ensuring that the system is easy to learn, use, and understand.</li>
+<li>Internationalization: Enabling the system to be adapted to different languages and cultures.</li>
+<li>Localization: Adapting the system to a specific language and culture.</li>
+</ul>
+<h3>There are two main approaches to dealing with cross-cutting concerns:</h3>
+<ul>
+<li>Aspect-oriented programming (AOP) is a software development paradigm that explicitly addresses cross-cutting concerns by modularizing them into separate modules called aspects. These aspects can then be woven into the code of the application at compile time or runtime.</li>
+<li>Traditional programming techniques can also be used to address cross-cutting concerns, but this can be more difficult and less maintainable. For example, a developer might need to duplicate code that is related to a cross-cutting concern in multiple places in the codebase.</li>
+</ul>
+<p>The choice of which approach to use depends on the specific needs of the project. AOP is a good choice for projects with a large number of cross-cutting concerns, or for projects that need to be able to change the way that the system deals with these concerns easily. Traditional programming techniques are a good choice for projects with a small number of cross-cutting concerns, or for projects that do not need to be able to change the way that the system deals with these concerns easily.</p>
+0:{"buildId":"4QoYsqwyTWjEzQ-drpnjT","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-bold","children":"What is Cross-cutting concern"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","11/28/2023"," • Updated 11/28/2023"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","design-pattern",{"className":"px-2 py-1 text-xs highlight rounded","children":"design-pattern"}],["$","span","best-practices",{"className":"px-2 py-1 text-xs highlight rounded","children":"best-practices"}],["$","span","cost-optimization",{"className":"px-2 py-1 text-xs highlight rounded","children":"cost-optimization"}],["$","span","architecture",{"className":"px-2 py-1 text-xs highlight rounded","children":"architecture"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$2"}}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null

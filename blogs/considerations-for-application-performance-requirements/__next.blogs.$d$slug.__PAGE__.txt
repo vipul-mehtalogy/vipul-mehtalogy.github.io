@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+2:T1186,<h2>Key Points to Consider</h2>
+<ul>
+<li>Recoverability: Establish the acceptable recovery time objective (RTO) and recovery point objective (RPO) for the application. The RTO defines the maximum amount of time the application can be unavailable following an error, while the RPO defines the maximum amount of data that can be lost.</li>
+<li>Data Integrity: Determine the level of data integrity required for the application. This includes defining acceptable data loss rates, data accuracy requirements, and data consistency measures.</li>
+<li>Availability: Set availability targets for the application, such as a percentage uptime or mean time between failures (MTBF). These targets should align with business requirements and user expectations.</li>
+<li>Resilience: Define resilience requirements for the application, considering factors such as fault tolerance, disaster recovery capabilities, and the ability to handle unexpected events or failures.</li>
+<li>Cross-cutting Concerns: Address cross-cutting concerns such as security, performance, and logging by integrating appropriate mechanisms and frameworks into the application architecture.</li>
+<li>Caching: Determine the appropriate caching strategies for the application, considering factors such as data access patterns, cache invalidation mechanisms, and cache size limitations.</li>
+<li>Data Validation: Establish data validation rules and input sanitization procedures to ensure data integrity and prevent invalid data from entering the application.</li>
+<li>Error Detection &amp; Presentation: Implement robust error detection mechanisms to identify and report errors promptly. Provide user-friendly error messages and error handling procedures to guide users through error situations.</li>
+<li>Logging: Define logging requirements for the application, including the types of events to be logged, the level of detail to be captured, and the log retention policies.</li>
+<li>Monitoring: Establish monitoring strategies to continuously track application performance metrics, such as response times, resource utilization, and error rates. Identify and address performance bottlenecks proactively.</li>
+<li>Data Synchronization: In distributed systems, define data synchronization requirements to ensure data consistency across multiple replicas. Implement appropriate synchronization mechanisms and conflict resolution strategies.</li>
+<li>Context-sensitive Help: Provide context-sensitive help to users, offering relevant assistance based on their current task or context. Improve usability and reduce support costs.</li>
+<li>Usage Capture: Capture user interactions and application usage patterns to gain insights into user behavior. Use this data to identify areas for improvement and enhance the user experience.</li>
+</ul>
+<h3>Application-Specific Considerations</h3>
+<ul>
+<li><strong>Web-based Applications:</strong> For web applications, performance requirements are typically based on user load, concurrent requests, and response times (min/max). Optimize response times, handle concurrent requests efficiently, and ensure scalability.</li>
+<li><strong>Transaction-based Applications:</strong> In transaction-based applications, performance requirements focus on transaction processing times, throughput, and system responsiveness. Optimize transaction processing, minimize transaction overhead, and ensure high transaction throughput.</li>
+<li><strong>Background Applications:</strong> Background applications, such as data processing or batch jobs, require performance optimization based on resource utilization, task completion times, and error rates. Efficient resource allocation, task prioritization, and error handling are essential.</li>
+</ul>
+<h3>Defining Application Performance Requirements</h3>
+<p>Application performance requirements are typically defined during the capacity planning phase when estimating application users, requests, data sizing, and costs. This process involves analyzing business requirements, user expectations, and infrastructure capabilities to establish performance benchmarks and objectives.</p>
+<h3>Conclusion</h3>
+<p>Defining application performance requirements is a crucial step in ensuring that software applications meet user expectations and business objectives. By carefully considering the key factors mentioned above and tailoring requirements to specific application types, organizations can develop high-performing, reliable, and scalable software solutions.</p>
+0:{"buildId":"4QoYsqwyTWjEzQ-drpnjT","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-bold","children":"Considerations for application performance requirements"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","11/28/2023"," • Updated 11/28/2023"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","application-performance",{"className":"px-2 py-1 text-xs highlight rounded","children":"application-performance"}],["$","span","design-pattern",{"className":"px-2 py-1 text-xs highlight rounded","children":"design-pattern"}],["$","span","best-practices",{"className":"px-2 py-1 text-xs highlight rounded","children":"best-practices"}],["$","span","architecture",{"className":"px-2 py-1 text-xs highlight rounded","children":"architecture"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$2"}}]]}],null,"$L3"]}],"loading":null,"isPartial":false}
+3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
+6:null

@@ -1,0 +1,88 @@
+1:"$Sreact.fragment"
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+2:T1252,<h2>Identity</h2>
+<p>In computing, &quot;identity&quot; is a representation of a person, application, or device. example</p>
+<ul>
+<li>Person - John Doe,</li>
+<li>email address - <a href="mailto:vipul@gmail.com">vipul@gmail.com</a></li>
+<li>Application - background batch job</li>
+<li>Device - a network-connected printer</li>
+</ul>
+<p>Identity usually requires a password, a secret key, or a certificate to prove the trust. Many applications required users to login into the application to provide restricted/controlled access to application functionality or resources. Traditionally developers have written their own code to handle this. It is a cross-cutting concern where it is always advisable to delegate this responsibility to external components so that development time can be saved, improvement to the system can be benefited by all application like password security, add/modify password policies or enforcing password complexity policies.</p>
+<p>Azure provides an identity management system based on their popular &quot;Active Directory&quot; called Azure Active Directory (AAD). Azure active directory does not provide the same services as Active directory as the traditional active directory (AD) does not work with (LDAP, Kerberos) internet protocols like SAML or WS Federation, etc. Azure active directory provides &quot;identity as a service&quot;. Instead of writing code to handle users, passwords, password reset, etc we can leverage AAD service features.</p>
+<h2>Azure Active Directory (AAD) Model</h2>
+<p><a href="Azure-Active-Directory-Model.png"><img src="Azure-Active-Directory-Model.png" alt="Azure Active Directory (AAD) Model" title="Azure Active Directory (AAD) Model"></a></p>
+<p>Azure Active Directory (AAD) Model</p>
+<p>In the AAD model Identity provider is a middle man, the client app goes to the identity provider with credentials and gets back a signed token. The client app passes this signed token to the server and the service is able to validate that token is valid because it is signed and they are able to trust that the person because they have signed the token.</p>
+<p>The token often has details called claims, expiry time, issue time and who the intended target is, etc.</p>
+<h2>Common Protocol for authentication</h2>
+<ul>
+<li>SAML</li>
+<li>OpenID</li>
+<li>WS Federation</li>
+</ul>
+<h2>Benefits  of Azure Active Directory</h2>
+<ul>
+<li>An industry-standard system, used by millions of organizations uses a proven-tested and secure system.</li>
+<li>Very easy to integrate with via APIs</li>
+<li>Increased  Security</li>
+<li>Multi-Factor Authentic</li>
+<li>Conditional Access </li>
+<li>Privileged identity management</li>
+<li>Advanced threat detection</li>
+<li>Centralized administration</li>
+<li>Single sign-on</li>
+<li>Integration with other Azure services like SQL Database, Storage VM, etc.</li>
+</ul>
+<h2>Tips</h2>
+<ul>
+<li>A resource group can be created even if you don&#39;t have a subscription.</li>
+<li>Can add users even without an active subscription.</li>
+<li>Can assign a custom domain name to the active directory.</li>
+<li>Can enable self-service password reset to allow the user to either via mobile app, email, SMS, or using security questions.</li>
+<li>Conditional Access policies can be configured via custom policies.</li>
+<li>MFA can block users for a certain time period after a defined number of unsuccessful attempts.</li>
+<li>A fraud alert can be configured for users and can block automatically or manually.</li>
+<li>Guest users can also be added to the active directory with role and group assignment. Such users are not part of your domain and belong to an external domain.</li>
+</ul>
+<h2>Identity Protection</h2>
+<p>protects against</p>
+<ul>
+<li><p>User Risk</p>
+</li>
+<li><p>Compromise of credentials</p>
+</li>
+<li><p>Bruteforce attack</p>
+</li>
+<li><p>Users can be blocked if violating policies. It can be mitigated via password reset.</p>
+</li>
+<li><p>Sign-in risk</p>
+</li>
+<li><p>Using anonymous VPN</p>
+</li>
+<li><p>Logging from an unusual location</p>
+</li>
+<li><p>IP address used for logging is a bad IP address</p>
+</li>
+<li><p>A simultaneous attempt of Sign-in found from multiple different geographies.</p>
+</li>
+<li><p>Multifactor Authentication Registration Policy</p>
+</li>
+<li><p>Force certain or all users to signup for MFA</p>
+</li>
+</ul>
+<h2>Azure AD Connect</h2>
+<ul>
+<li>To sync on-premise AD with Azure Active Directory</li>
+<li>Allow single sign-on for on-prim users</li>
+<li>Pass-throught authentication enforce user to auth with on-premise Active Directory</li>
+<li>Health and analytics can be configure</li>
+</ul>
+<h2>Question</h2>
+<ul>
+<li>What is an active directory forest?</li>
+</ul>
+0:{"buildId":"4QoYsqwyTWjEzQ-drpnjT","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-bold","children":"Azure Active Directory"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","5/22/2021"," • Updated 5/22/2021"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","Azure",{"className":"px-2 py-1 text-xs highlight rounded","children":"Azure"}],["$","span","Authentication",{"className":"px-2 py-1 text-xs highlight rounded","children":"Authentication"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$2"}}]]}],null,"$L3"]}],"loading":null,"isPartial":false}
+3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
+6:null

@@ -1,0 +1,39 @@
+1:"$Sreact.fragment"
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+2:Te78,<h2>Effective Logging</h2>
+<p>Effective logging is crucial for maintaining the health, stability, and performance of software applications. It provides valuable insights into application behavior, facilitates troubleshooting, and enables informed decision-making.</p>
+<h3>Goals of Effective Logging:</h3>
+<ul>
+<li>Good and Consistent Information: Logs should capture relevant and consistent information about application events, including timestamps, error messages, user actions, and system metrics.</li>
+<li>Clean Application Code: Effective logging separates logging logic from application logic, keeping the code clean, maintainable, and testable.</li>
+<li>Easley Consumable: Log messages should be easily consumable by both humans and machines, using clear language, consistent formatting, and appropriate contextual information.</li>
+<li>Improve Fixability: Comprehensive and detailed logs facilitate faster and more accurate troubleshooting, reducing the time to identify and resolve issues.</li>
+<li>Enable Deeper Understanding: Effective logging enables deeper understanding of application behavior, user interactions, and system performance trends.</li>
+<li>Add Data for Prioritization: Logs should include relevant data points that can be used to prioritize tasks, such as error severity, affected users, or resource utilization.</li>
+</ul>
+<h3>Best Practices</h3>
+<ul>
+<li>4W: Logs should adhere to the 4W&#39;s principle: Who, What, When, and Where. This ensures that log messages provide sufficient context for understanding the event.</li>
+<li>Global Logger: A global logger should be used to centralize logging and ensure consistency across the application.</li>
+<li>Enrich Log Entries: Logs should be enriched with additional information, such as user IDs, session IDs, and request parameters, to provide context and facilitate analysis</li>
+<li>Structure Logging: Structured logging formats, such as JSON or XML, should be used to organize log data in a machine-readable format, enabling efficient parsing and analysis.</li>
+<li>Filters and Formats: Logging frameworks should provide options to filter and format log messages based on severity, source, or other criteria.</li>
+</ul>
+<h3>Controlling Log Messages:</h3>
+<ul>
+<li>Control What to Log: Logging frameworks should provide mechanisms to control which messages are logged based on severity, source, or other criteria.</li>
+<li>Automating Logging of Standard Events: Standard events, such as application startup, user logins, and error occurrences, should be automatically logged to provide a baseline of application activity.</li>
+<li>Better Log Entries for Analysis: Log entries should be designed for analysis, including relevant data fields, clear identifiers, and consistent formatting.</li>
+</ul>
+<h3>Logz.io Integration:</h3>
+<ul>
+<li>Integrating Logz.io, a cloud-based log management platform, can provide centralized log storage, analysis, and visualization capabilities. It can help with:</li>
+<li>Collecting and Storing Logs: Logz.io can collect and store logs from various sources, including application servers, network devices, and cloud infrastructure.</li>
+<li>Real-time Analysis: Logz.io provides real-time log analysis capabilities, enabling quick identification of anomalies, trends, and potential issues.</li>
+<li>Visualization and Alerts: Logz.io offers customizable dashboards and alerts to visualize log data, identify patterns, and receive notifications for critical events.</li>
+</ul>
+<p>By following these guidelines and adopting effective logging practices, organizations can reap the benefits of comprehensive and actionable logging, enhancing application performance, stability, and reliability.</p>
+0:{"buildId":"4QoYsqwyTWjEzQ-drpnjT","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-bold","children":"Logging goals and guidelines"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","11/28/2023"," • Updated 11/28/2023"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","logging",{"className":"px-2 py-1 text-xs highlight rounded","children":"logging"}],["$","span","best-practices",{"className":"px-2 py-1 text-xs highlight rounded","children":"best-practices"}],["$","span","architecture",{"className":"px-2 py-1 text-xs highlight rounded","children":"architecture"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$2"}}]]}],null,"$L3"]}],"loading":null,"isPartial":false}
+3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
+6:null

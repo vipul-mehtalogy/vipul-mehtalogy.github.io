@@ -1,0 +1,21 @@
+1:"$Sreact.fragment"
+3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+2:T616,<p>Dependency injection (DI) and the factory pattern are both design patterns that deal with object creation and dependency management. However, they serve different purposes and are applied in different situations.</p>
+<p>Dependency injection is a technique for providing objects to a class without the class explicitly creating them. This is done by injecting the dependencies into the class constructor or through method calls. DI promotes loose coupling and makes it easier to test and maintain code.</p>
+<p>The factory pattern is a design pattern that creates objects in a standardized way. It provides an interface for creating objects, and it hides the implementation details of object creation. The factory pattern can be used to create objects of different types, and it can be used to control the lifetime of objects.</p>
+<p>In general, DI is a more general-purpose design pattern that can be used for a wider range of scenarios. The factory pattern is a more specialized design pattern that is used specifically for object creation.</p>
+<p>Here are some examples of when to use DI:</p>
+<ul>
+<li>When you want to decouple a class from its dependencies</li>
+<li>When you want to make it easy to test a class</li>
+<li>When you want to manage the lifecycle of objects</li>
+</ul>
+<p>Here are some examples of when to use the factory pattern:</p>
+<ul>
+<li>When you want to create objects of different types</li>
+<li>When you want to hide the implementation details of object creation</li>
+<li>When you want to control the lifetime of objects</li>
+</ul>
+0:{"buildId":"4QoYsqwyTWjEzQ-drpnjT","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-bold","children":"Dependency injection vs factory pattern?"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","11/28/2023"," • Updated 11/28/2023"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","design-pattern",{"className":"px-2 py-1 text-xs highlight rounded","children":"design-pattern"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$2"}}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null

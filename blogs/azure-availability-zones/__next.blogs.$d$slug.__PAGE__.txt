@@ -1,0 +1,35 @@
+1:"$Sreact.fragment"
+3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+2:Ta6d,<p>An Azure Availability Zone is a physically separate zone within an Azure region. Each Availability Zone has its own independent power source, network, and cooling infrastructure. This isolation helps protect applications and data from the loss of data centers. If one zone is compromised, then replicated apps and data are instantly available in another zone.</p>
+<h3>Benefits of Availability Zones</h3>
+<ul>
+<li>High availability: Availability Zones provide a 99.99% SLA for connectivity to at least one instance of your application.</li>
+<li>Disaster recovery: Availability Zones can be used for disaster recovery by replicating your applications and data to another zone.</li>
+<li>Low latency: Availability Zones are located within the same Azure region, so they offer low latency for your applications.</li>
+</ul>
+<h3>How Availability Zones Work</h3>
+<p>Availability Zones are designed to isolate your applications and data from failures at the data center level. When you deploy an application to an Availability Zone, Azure replicates your application and data to the other Availability Zones in the region. This means that if one Availability Zone fails, your application and data will still be available in the other zones.</p>
+<h3>What Services Support Availability Zones</h3>
+<p>Not all Azure services support Availability Zones. The following services are currently supported:</p>
+<ul>
+<li>Virtual Machines</li>
+<li>Azure App Service</li>
+<li>Azure SQL Database</li>
+<li>Azure Storage</li>
+<li>Azure Cosmos DB</li>
+<li>Azure Kubernetes Service (AKS)</li>
+</ul>
+<h3>How to Deploy to Availability Zones</h3>
+<p>To deploy to Availability Zones, you must select the Availability Zone when you create your resource. For example, when you create a virtual machine, you can select the Availability Zone in the Availability options section of the Create a virtual machine page.</p>
+<h3>Considerations for Using Availability Zones</h3>
+<p>There are a few things to consider when using Availability Zones:</p>
+<ul>
+<li>Cost: Availability Zones are an additional cost compared to deploying to a single Availability Zone.</li>
+<li>Complexity: Availability Zones can add complexity to your deployments. You will need to manage your resources across multiple zones.</li>
+<li>Networking: You will need to plan your network carefully to ensure that your applications can communicate across Availability Zones.</li>
+</ul>
+<h3>Conclusion</h3>
+<p>Azure Availability Zones are a powerful tool for protecting your applications and data from data center failures. If you are running mission-critical applications or data, then you should consider using Availability Zones.</p>
+0:{"buildId":"4QoYsqwyTWjEzQ-drpnjT","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-bold","children":"Azure Availability Zones"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","11/28/2023"," • Updated 11/28/2023"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","Azure",{"className":"px-2 py-1 text-xs highlight rounded","children":"Azure"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$2"}}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null

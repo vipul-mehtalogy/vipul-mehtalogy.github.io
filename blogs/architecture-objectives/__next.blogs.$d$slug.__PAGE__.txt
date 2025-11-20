@@ -1,0 +1,31 @@
+1:"$Sreact.fragment"
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+2:Tf28,<p>Architecture objectives are the goals that a software architect aims to achieve when designing a system. They typically fall into one of several categories:</p>
+<ul>
+<li>Functional: These objectives focus on the what and how of the system, specifying the features and functionalities that the system should provide. They may also include performance and scalability requirements.</li>
+<li>Non-functional: These objectives focus on the how well the system delivers its features and functionalities, addressing aspects such as usability, maintainability, reliability, and security.</li>
+<li>Architectural: These objectives address the overall structure and organization of the system, ensuring that it is modular, scalable, and maintainable.</li>
+</ul>
+<p>Some common architecture objectives include:</p>
+<ul>
+<li>Modular: A modular architecture is one in which the system is divided into independent modules. Each module has a well-defined purpose and is responsible for a specific set of tasks. This makes it easier to maintain and extend the system, as changes can be made to one module without affecting the others.</li>
+<li>Cohesion: Cohesion is a measure of how well-related the functions within a module are. High cohesion means that the functions in a module are highly related and share a common purpose. Low cohesion means that the functions in a module are unrelated and do not share a common purpose.</li>
+<li>Coupling: Coupling is a measure of how interdependent modules are. High coupling means that modules are tightly interdependent and rely on each other for data or functionality. Low coupling means that modules are loosely interdependent and can function independently.</li>
+<li>Abstraction: The system should hide implementation details and expose only the essential functionalities to the user.</li>
+<li>Scalability: The system should be able to handle increasing loads and user numbers without performance degradation.</li>
+<li>Reliability: The system should be able to recover from failures and maintain data integrity.</li>
+<li>Security: The system should be protected from unauthorized access, data breaches, and malicious attacks.</li>
+<li>Performance: The system should deliver its functionalities efficiently and without excessive resource consumption.</li>
+<li>Usability: The system should be easy to learn, use, and navigate.</li>
+<li>Maintainability: The system should be easy to modify, extend, and debug.</li>
+<li>Testability: The system should be easy to test and verify its correctness.</li>
+<li>Clean: A clean architecture is one that is easy to understand, maintain, and extend. It is also one that is free from duplication and unnecessary complexity.</li>
+<li>Evolution: An architecture that is designed for evolution is one that is flexible and can accommodate changes over time. This includes changes to the requirements, the technology stack, and the business needs.</li>
+<li>Push vs Pull: In a push architecture, the server pushes data to the client. This is the traditional way of delivering content to web browsers, and it is still used by many applications. In a pull architecture, the client periodically requests data from the server. This is often used for applications that require real-time data, such as chat applications and stock tickers.</li>
+<li>Payload / Performance: The payload is the amount of data that is transferred between the client and the server. The performance of an application can be affected by the size of the payload. A larger payload can take longer to transfer, which can slow down the application.</li>
+<li>Tenancy: Tenancy is the ability to share resources between different users or applications. This can be done by dividing the application into separate tenants. Each tenant has its own set of resources, such as databases and storage. This can help to improve security and scalability.</li>
+</ul>
+0:{"buildId":"4QoYsqwyTWjEzQ-drpnjT","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-bold","children":"Architecture Objectives"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","11/28/2023"," • Updated 11/28/2023"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","architecture",{"className":"px-2 py-1 text-xs highlight rounded","children":"architecture"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$2"}}]]}],null,"$L3"]}],"loading":null,"isPartial":false}
+3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
+6:null
