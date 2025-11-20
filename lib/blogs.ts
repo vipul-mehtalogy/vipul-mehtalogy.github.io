@@ -41,8 +41,7 @@ export function getAllBlogs(): BlogMeta[] {
     return blogs.sort((a, b) => +new Date(b.date) - +new Date(a.date));
 }
 
-export function getBlogBySlug(slug: string): BlogPost {
-    console.log(BLOG_DIR, slug)
+export async function getBlogBySlug(slug: string){
     const filePath = path.join(BLOG_DIR, slug, "index.md");
     const file = fs.readFileSync(filePath, "utf-8");
 
@@ -55,7 +54,7 @@ export function getBlogBySlug(slug: string): BlogPost {
         tags: data.tags || [],
         summary: data.summary || "",
         slug,
-        content: marked.parse(content),
+        content: await marked.parse(content),
     };
 }
 

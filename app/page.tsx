@@ -1,6 +1,5 @@
 // app/page.tsx  (Next.js App Router - SSG friendly)
 import { FaCloud, FaCogs, FaCode, FaServer, FaExchangeAlt, FaMobileAlt } from "react-icons/fa";
-import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import { FaWhatsapp } from "react-icons/fa";

@@ -9,7 +9,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const slug = await params;
-  const post = getBlogBySlug(slug.slug);
+  const post = await getBlogBySlug(slug.slug);
 
   return {
     title: `${post.title} | Mehtalogy`,
@@ -17,11 +17,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   };
 }
 
-export default async function BlogPage({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+export default async function BlogPage({ params }: { params: Promise<{ slug: string }> }) {
   const slug = await params;
-  const post = getBlogBySlug(slug.slug);
+  const post = await getBlogBySlug(slug.slug);
 
   if (!post) return notFound();
+  const tags = post.tags ?? [];
 
   return (
     <main className="container mx-auto px-6 prose dark:prose-invert max-w-3xl">
@@ -33,9 +34,9 @@ export default async function BlogPage({ params }: { params: Promise<{ slug: str
           ` • Updated ${new Date(post.updated).toLocaleDateString()}`}
       </p>
 
-      {post.tags?.length > 0 && (
+      {tags.length > 0 && (
         <div className="flex gap-2 mt-4">
-          {post.tags.map((tag: string) => (
+          {tags.map((tag: string) => (
             <span
               key={tag}
               className="px-2 py-1 text-xs highlight rounded"
