@@ -39,7 +39,7 @@ const caseStudies = [
     title: "Mining Plant Advisory",
     subtitle: "Anomaly Detection & Analytics",
     impact: "Predictive alerts and centralized KPIs that reduced downtime and improved yield.",
-    href: "/case-studies/Mining-Plant-Advisory/",
+    href: "/case-studies/mining-plant-advisory/",
   },
   {
     title: "Large-Scale Migration",
