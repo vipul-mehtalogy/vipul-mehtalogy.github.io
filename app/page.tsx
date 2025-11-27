@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaWhatsapp } from "react-icons/fa";
 import {services} from "@/data/services.json"
+import {caseStudies} from "@/data/case-studies.json"
 
 
 

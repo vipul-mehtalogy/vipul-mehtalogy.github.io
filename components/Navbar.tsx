@@ -19,7 +19,7 @@ export default function Navbar() {
         aria-label="Main Navigation"
         className="
           fixed top-0 left-0 w-full z-50
-          bg-surface
+          bg-light
           border-b border-border-light
         "
       >
@@ -68,7 +68,7 @@ export default function Navbar() {
 
         {/* Mobile Menu */}
         {menuOpen && (
-          <div className="md:hidden bg-surface border-t border-border-light">
+          <div className="md:hidden bg-light border-t border-border-light z-50">
             <div className="flex flex-col gap-4 p-4">
               {navLinks.map((item) => (
                 <Link
