@@ -1,1 +1,0 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,12774,e=>{"use strict";var t=e.i(43476);function s(){return(0,t.jsx)("main",{className:"min-h-screen pb-2"})}e.s(["default",()=>s])}]);
