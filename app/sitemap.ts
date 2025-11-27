@@ -1,7 +1,7 @@
 export const dynamic = "force-static";
 
 import { getAllBlogs } from "@/lib/blogs";
-import type { Blog } from "@/app/Data/types";
+import type { BlogMeta } from "@/data/types";
 
 
 export default async function sitemap() {
@@ -9,7 +9,7 @@ export default async function sitemap() {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
 
   // --- Blogs URLs ---
-  const blogsUrls = blogs.map((b: Blog) => ({
+  const blogsUrls = blogs.map((b: BlogMeta) => ({
     url: `${baseUrl}/blogs/${(b.slug)}`,
     lastModified: new Date().toISOString(),
     changeFrequency: "weekly",

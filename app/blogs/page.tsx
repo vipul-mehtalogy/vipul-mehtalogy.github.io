@@ -31,7 +31,7 @@ export default function BlogListPage() {
             )}
 
             <div className="mt-3 flex flex-wrap gap-2">
-              {b.tags?.map((t) => (
+              {b.tags?.map((t:string) => (
                 <span
                   key={t}
                   className="px-2 py-1 text-xs rounded highlight"

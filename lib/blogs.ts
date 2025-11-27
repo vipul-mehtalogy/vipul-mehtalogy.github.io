@@ -3,15 +3,9 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
+import {BlogMeta} from "@/data/types"
 
-export interface BlogMeta {
-    title: string;
-    slug: string;
-    date: string;
-    updated?: string;
-    tags?: string[];
-    summary?: string;
-}
+
 
 export interface BlogPost extends BlogMeta {
     content: string; // HTML
