@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Breadcrumb from "@/components/BreadcrumbItem";
+
 
 export const metadata = {
   title: "Case Study: Jewellery Product Catalog & Real-Time Pricing | Mehtalogy",
@@ -9,6 +11,10 @@ export const metadata = {
 export default function JewelleryCaseStudy() {
   return (
     <main className="min-h-screen bg-light px-6 py-12">
+
+      <Breadcrumb items={[{ name: "Home", href: "/" }, { name: "Case Studies", href: "/case-studies" },
+      { name: "Jewellery Product Catalog" }
+      ]} />
       <section className="max-w-5xl mx-auto">
         <h1 className="text-4xl font-bold text-gray-900 mb-6">
           Jewellery Product Catalog & Real-time Pricing Transformation
@@ -103,7 +109,7 @@ export default function JewelleryCaseStudy() {
           <li>PWA for notifications and mobile-first UX</li>
         </ul>
 
-        
+
       </section>
       <section className="max-w-5xl mx-auto bg-accent p-6 rounded-xl border border-blue-200 mt-12 mb-12">
         <h2 className="">

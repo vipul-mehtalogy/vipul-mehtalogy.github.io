@@ -2,7 +2,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllSlugs, getBlogBySlug } from "@/lib/blogs";
-
+import Breadcrumb from "@/components/BreadcrumbItem"; 
 export async function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
 }
@@ -26,6 +26,10 @@ export default async function BlogPage({ params }: { params: Promise<{ slug: str
 
   return (
     <main className="container mx-auto px-6 prose dark:prose-invert max-w-3xl">
+      {/* import Breadcrumb from "@/components/BreadcrumbItem"; */}
+            <Breadcrumb items={[{ name: "Home", href: "/" }, { name: "Blogs",href:"/blogs" },
+              { name:  `${post.title}`}
+            ]} />
       <h1 className="text-4xl font-bold">{post.title}</h1>
 
       <p className="text-muted text-sm mt-2">

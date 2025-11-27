@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import servicesData from "@/data/services.json";
 import {Service} from "@/data/types.js"
-
+import Breadcrumb from "@/components/BreadcrumbItem";
 
 export default async function ServiceDetailPage({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = await params;
@@ -14,6 +14,10 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
 
   return (
     <div className="min-h-screen bg-background text-foreground">
+      
+                  <Breadcrumb items={[{ name: "Home", href: "/" }, { name: "Services",href:"/services" },
+                    { name:  `${service.title}`}
+                  ]} />
       {/* Hero Banner */}
       <section className="relative w-full h-72 md:h-96 overflow-hidden">
         <Image

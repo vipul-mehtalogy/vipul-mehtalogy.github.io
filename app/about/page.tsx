@@ -2,11 +2,12 @@
 
 import Link from "next/link";
 import { FaHandshake, FaUserCog, FaGlobeAsia, FaRocket } from "react-icons/fa";
+import Breadcrumb from "@/components/BreadcrumbItem";
 
 export default function AboutPage() {
     return (
         <main className="min-h-screen pb-2">
-
+            <Breadcrumb items={[{ name: "Home", href: "/" }, { name: "About Us" }]} />
             {/* ============================= */}
             {/* HERO SECTION */}
             {/* ============================= */}
@@ -59,7 +60,7 @@ export default function AboutPage() {
                 </div>
 
                 <div className="grid md:grid-cols-4 gap-8 max-w-6xl mx-auto">
-                    {[ 
+                    {[
                         { icon: FaHandshake, title: "Partnership-First", desc: "We work with you as a strategic ally, not a vendor." },
                         { icon: FaUserCog, title: "Engineering Excellence", desc: "Modern, scalable, and maintainable tech solutions." },
                         { icon: FaGlobeAsia, title: "Global Mindset", desc: "Experience serving startups to enterprises worldwide." },

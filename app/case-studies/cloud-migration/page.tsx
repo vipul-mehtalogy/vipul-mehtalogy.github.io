@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
+import Breadcrumb from "@/components/BreadcrumbItem"; 
 export const metadata = {
   title: "Large-Scale On-Prem to Cloud Migration | Mehtalogy Case Study",
   description:
@@ -20,6 +21,10 @@ export const metadata = {
 export default function CloudMigrationCaseStudy() {
   return (
     <main className="p-4 bg-light text-dark">
+      {/* import Breadcrumb from "@/components/BreadcrumbItem"; */}
+                  <Breadcrumb items={[{ name: "Home", href: "/" }, { name: "Case Studies",href:"/case-studies" },
+                    { name:  "Large-Scale On-Prem to Cloud Migration"}
+                  ]} />
       {/* HERO */}
       <section className="container mx-auto px-6 md:px-10 text-center mb-16">
         <h1 className="text-3xl md:text-5xl font-bold text-dark mb-4">

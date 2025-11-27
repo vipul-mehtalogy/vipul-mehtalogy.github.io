@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
-
+import Breadcrumb from "@/components/BreadcrumbItem";
 export const metadata = {
   title: "Case Study: Food Traceability & Safety | Mehtalogy Technology Partner",
   description:
@@ -22,6 +22,10 @@ export const metadata = {
 export default function CaseStudyFoodTraceability() {
   return (
     <main className="min-h-screen bg-surface text-on-surface">
+
+      <Breadcrumb items={[{ name: "Home", href: "/" }, { name: "Case Studies", href: "/case-studies" },
+      { name: "Food Traceability & Safety" }
+      ]} />
       {/* HERO */}
       <section className="container mx-auto p-4">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">
@@ -29,7 +33,7 @@ export default function CaseStudyFoodTraceability() {
         </h1>
 
         <p className="text-lg md:text-xl max-w-3xl text-muted">
-          Geo-replicated IIoT platform built on <strong>Azure</strong>, <strong>AKS</strong>, and <strong>Istio</strong> 
+          Geo-replicated IIoT platform built on <strong>Azure</strong>, <strong>AKS</strong>, and <strong>Istio</strong>
           for end-to-end traceability, safety compliance, and predictive monitoring.
         </p>
 
@@ -49,15 +53,15 @@ export default function CaseStudyFoodTraceability() {
         <h2 className="text-2xl md:text-3xl font-semibold mb-4">Overview</h2>
 
         <p className="text-muted max-w-4xl leading-relaxed">
-          A global food producer approached Mehtalogy to build a <strong>unified end-to-end traceability system</strong> 
-          across farms, processing plants, warehouses, and distributors.  
-          The challenge: ensuring <strong>real-time monitoring</strong>, <strong>regulatory compliance</strong>, and 
+          A global food producer approached Mehtalogy to build a <strong>unified end-to-end traceability system</strong>
+          across farms, processing plants, warehouses, and distributors.
+          The challenge: ensuring <strong>real-time monitoring</strong>, <strong>regulatory compliance</strong>, and
           <strong>tamper-proof data integrity</strong> across geographically distributed locations.
         </p>
 
         <p className="text-muted max-w-4xl mt-4 leading-relaxed">
-          The solution required a resilient, <strong>geo-replicated IIoT architecture</strong>, 
-          capable of processing millions of telemetry events per hour while ensuring 
+          The solution required a resilient, <strong>geo-replicated IIoT architecture</strong>,
+          capable of processing millions of telemetry events per hour while ensuring
           <strong>99.99% uptime</strong> and seamless global failover.
         </p>
       </section>

@@ -4,12 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 import caseStudiesData from "@/data/case-studies.json";
-import { CaseStudy } from "@/data/types.js"
-
+import Breadcrumb from "@/components/BreadcrumbItem";
 
 export default function CaseStudiesPage() {
     return (
         <div className="min-h-screen bg-background text-foreground">
+            {/* import Breadcrumb from "@/components/BreadcrumbItem"; */}
+            <Breadcrumb items={[{ name: "Home", href: "/" }, { name: "Case Studies", }]} />
             {/* Hero Section */}
             <section className="text-center py-20 bg-bg-light border-b border-border">
                 <h1 className="text-5xl font-extrabold text-accent mb-4">

@@ -2,11 +2,14 @@ import React from "react";
 import { services } from "@/data/services.json"
 import Image from "next/image"
 import Link from "next/link"
+import Breadcrumb from "@/components/BreadcrumbItem";
 
 export default function ServicesPage() {
 
     return (
-        <div className="min-h-screen py-20 px-6 md:px-16 lg:px-24">
+        <div className="min-h-screen">
+
+            <Breadcrumb items={[{ name: "Home", href: "/" }, { name: "Servies" }]} />
             <div className="max-w-6xl mx-auto">
                 <h1 className="text-primary mb-6">Our Services & Capabilities</h1>
                 <p className="text-lg text-muted max-w-3xl mb-12">

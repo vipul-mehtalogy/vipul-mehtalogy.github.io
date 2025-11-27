@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
+import Breadcrumb from "@/components/BreadcrumbItem";
+
 export const metadata = {
   title: "Mining Plant Advisory | Mehtalogy Case Study",
   description:
@@ -19,6 +21,10 @@ export const metadata = {
 export default function MiningPlantAdvisoryCaseStudy() {
   return (
     <main className="p-4 bg-light text-dark">
+
+      <Breadcrumb items={[{ name: "Home", href: "/" }, { name: "Case Studies", href: "/case-studies" },
+      { name: "Mining Plant Advisory" }
+      ]} />
       {/* HERO */}
       <section className="container mx-auto px-6 md:px-10 text-center mb-16">
         <h1 className="text-3xl md:text-5xl font-bold text-dark mb-4">
@@ -141,7 +147,7 @@ export default function MiningPlantAdvisoryCaseStudy() {
           Mehtalogy helps engineering and manufacturing companies build reliable, scalable
           digital solutions that improve safety and efficiency.
         </p>
-       <Link
+        <Link
           href="https://wa.me/919424932197"
           target="_blank"
           className="btn-primary flex items-center gap-2"
