@@ -2,14 +2,20 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch Next.js Website",
-      "type": "chrome",
+      "name": "Start Next.js",
+      "type": "node",
       "request": "launch",
-      "url": "http://localhost:3000",
-      "preLaunchTask": "Next.js Dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "cwd": "${workspaceFolder}",
+      "serverReadyAction": {
+        "pattern": "http://localhost",
+        "uriFormat": "http://localhost:3000",
+        "action": "debugWithChrome"
+      },
       "skipFiles": [
-        "node_modules/**",
-        "<node_internals>/**"
+        "<node_internals>/**",
+        "node_modules/**"
       ]
     }
   ]

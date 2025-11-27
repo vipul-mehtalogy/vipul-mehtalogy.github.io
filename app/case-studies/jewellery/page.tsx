@@ -106,7 +106,7 @@ export default function JewelleryCaseStudy() {
         
       </section>
       <section className="max-w-5xl mx-auto bg-accent p-6 rounded-xl border border-blue-200 mt-12 mb-12">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+        <h2 className="">
           Live Implementation
         </h2>
 
@@ -115,6 +115,8 @@ export default function JewelleryCaseStudy() {
             src="/img/case-studies/jewellery/favicon.svg"
             alt="Sapna Shri Jewellers Logo"
             className="h-10 bg-black"
+            width="40"
+            height="40"
           />
           <p className="text-gray-700">
             This platform powers Sapna Shri Jewellers’ live product catalog, pricing
