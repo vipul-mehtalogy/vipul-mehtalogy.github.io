@@ -1,5 +1,5 @@
 // app/page.tsx  (Next.js App Router - SSG friendly)
-import { FaCloud, FaCogs, FaCode, FaServer, FaExchangeAlt, FaMobileAlt } from "react-icons/fa";
+
 import Link from "next/link";
 import Image from "next/image";
 import { FaWhatsapp } from "react-icons/fa";
@@ -29,6 +29,12 @@ const services = [
 ];
 
 const caseStudies = [
+  {
+  title: "Jewellery Product Catalog & Real-Time Pricing",
+  subtitle: "Next.js — Dynamic Pricing, Inventory Automation, PWA",
+  impact: "Digitized retail jewellery sales with live pricing, inventory tracking, anti-theft monitoring and push notifications.",
+  href: "/case-studies/jewellery/",
+},
   {
     title: "Food Traceability & Safety",
     subtitle: "IIoT — Azure, AKS, Istio",
@@ -169,7 +175,7 @@ export default function Home() {
       <section className="py-16 bg-bg-accent">
         <div className="container mx-auto max-w-content px-6">
           <h2 className="h2 mb-6">Selected case studies</h2>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 gap-6">
             {caseStudies.map((c) => (
               <article key={c.title} className="card p-5">
                 <h3 className="font-semibold">{c.title}</h3>
@@ -231,7 +237,7 @@ export default function Home() {
       <section className="py-20 px-6 bg-light text-slate-900 text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Let’s Build Your Next Innovation</h2>
         <p className="text-lg mb-8 max-w-2xl mx-auto">
-          Whether you're scaling operations or modernizing your tech stack, Mehtalogy is ready to partner with you.
+          Whether you are scaling operations or modernizing your tech stack, Mehtalogy is ready to partner with you.
         </p>
         <Link
           href="https://wa.me/919424932197"
