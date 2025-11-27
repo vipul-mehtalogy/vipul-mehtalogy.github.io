@@ -1,7 +1,8 @@
 1:"$Sreact.fragment"
-4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
-5:"$Sreact.suspense"
-2:T1119,<h2>Azure Front Door: A Versatile Solution for Global Content Delivery and Security</h2>
+2:I[18341,["/_next/static/chunks/4acf2da2631f3e8d.js","/_next/static/chunks/56107793851a41ff.js","/_next/static/chunks/4c66b610abf70460.js"],"default"]
+6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T1119,<h2>Azure Front Door: A Versatile Solution for Global Content Delivery and Security</h2>
 <p>Azure Front Door is a comprehensive content delivery network (CDN) and web application firewall (WAF) that operates at the Layer 7 (application) level of the OSI model. It serves as a unified entry point for users accessing your web applications, APIs, content, and cloud services, providing a seamless and secure experience regardless of their location.</p>
 <h3>Global Load Balancing with Enhanced Performance</h3>
 <p>Azure Front Door goes beyond traditional global load balancing by employing advanced techniques to optimize traffic routing and enhance application performance. It utilizes a global network of edge servers, known as Points of Presence (POPs), strategically positioned around the world to deliver content from the nearest location to each user. This proximity-based approach significantly reduces latency and improves page load times.</p>
@@ -25,6 +26,7 @@
 </ul>
 <h3>Conclusion</h3>
 <p>Azure Front Door stands out as a versatile and powerful solution for global content delivery and security. Its combination of intelligent routing, advanced health monitoring, customizable routing rules, cookie-based session affinity, and SSL termination capabilities makes it an ideal choice for businesses seeking to deliver a secure, high-performance, and globally available user experience for their web applications, APIs, content, and cloud services.</p>
-0:{"buildId":"oC6XTHvxpH4s84kY_P34H","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-bold","children":"Azure FrontDoor"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","11/28/2023"," • Updated 11/28/2023"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","Azure",{"className":"px-2 py-1 text-xs highlight rounded","children":"Azure"}],["$","span","Cyber-Security",{"className":"px-2 py-1 text-xs highlight rounded","children":"Cyber-Security"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$2"}}]]}],null,"$L3"]}],"loading":null,"isPartial":false}
-3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
-6:null
+0:{"buildId":"pslQapqFes7qUJd-6A5ar","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","$L2",null,{"items":[{"name":"Home","href":"/"},{"name":"Blogs","href":"/blogs"},{"name":"Azure FrontDoor"}]}],["$","h1",null,{"className":"text-4xl font-bold","children":"Azure FrontDoor"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","11/28/2023"," • Updated 11/28/2023"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","Azure",{"className":"px-2 py-1 text-xs highlight rounded","children":"Azure"}],["$","span","Cyber-Security",{"className":"px-2 py-1 text-xs highlight rounded","children":"Cyber-Security"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/_next/static/chunks/4c66b610abf70460.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null
