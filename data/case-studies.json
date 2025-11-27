@@ -1,0 +1,28 @@
+{
+    "caseStudies": [
+        {
+            "title": "Jewellery Product Catalog & Real-Time Pricing",
+            "subtitle": "Next.js — Dynamic Pricing, Inventory Automation, PWA",
+            "impact": "Digitized retail jewellery sales with live pricing, inventory tracking, anti-theft monitoring and push notifications.",
+            "href": "/case-studies/jewellery/"
+        },
+        {
+            "title": "Food Traceability & Safety",
+            "subtitle": "IIoT — Azure, AKS, Istio",
+            "impact": "Geo-replicated IIoT platform with end-to-end traceability and compliance.",
+            "href": "/case-studies/food-traceability/"
+        },
+        {
+            "title": "Mining Plant Advisory",
+            "subtitle": "Anomaly Detection & Analytics",
+            "impact": "Predictive alerts and centralized KPIs that reduced downtime and improved yield.",
+            "href": "/case-studies/mining-plant-advisory/"
+        },
+        {
+            "title": "Large-Scale Migration",
+            "subtitle": "490+ Apps to Cloud",
+            "impact": "Migration accelerators and governance enabling large-scale cloud transformation.",
+            "href": "/case-studies/cloud-migration/"
+        }
+    ]
+}

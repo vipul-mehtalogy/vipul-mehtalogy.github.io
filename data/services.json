@@ -1,0 +1,136 @@
+{
+  "services": [
+    {
+      "title": "Cloud Agnostic Solutions",
+      "slug": "cloud-agnostic-solutions",
+      "desc": "Design and implement secure, geo-replicated cloud-native platforms (Containers, Kubernetes, Serverless Functions, DevOps).",
+      "icon": "/img/services/cloud.png",
+      "banner": "/img/banners/cloud-agnostic.jpg",
+      "longText": "Mehtalogy helps enterprises build cloud-agnostic platforms designed to run seamlessly across AWS, Azure, GCP, or on-prem environments. Our engineering-first approach ensures portability, scalability, and vendor independence so that your digital infrastructure stays future-proof. We implement fully automated pipelines, geo-replicated architectures, Kubernetes clusters, serverless workflows, and DevOps toolchains that accelerate deployment cycles and reduce operational overhead.",
+      "howItHelps": "By decoupling your business from a single cloud provider, our cloud-agnostic platforms reduce cost risks, improve operational resilience, and allow your teams to deploy globally with confidence.",
+      "businessGoals": [
+        "Avoid vendor lock-in and enable multi-cloud flexibility",
+        "Improve deployment velocity with automated CI/CD pipelines",
+        "Increase system uptime with geo-replicated architecture",
+        "Optimize cloud spend with cross-platform resource orchestration"
+      ],
+      "keyPoints": [
+        "Multi-cloud platform engineering",
+        "Kubernetes cluster setup & governance",
+        "Serverless API & workflow design",
+        "DevOps automation and GitOps pipelines",
+        "Cloud security, IAM design, and automated compliance"
+      ]
+    },
+    {
+      "title": "Modernization & Migration",
+      "slug": "modernization-migration",
+      "desc": "Expertise in moving legacy apps to cloud-native PaaS and container platforms with minimal disruption.",
+      "icon": "/img/services/modernize.png",
+      "banner": "/img/banners/modernization.jpg",
+      "longText": "Legacy systems often limit innovation and scalability. Mehtalogy modernizes your software landscape by re-platforming, containerizing, or re-architecting applications for the cloud. We ensure minimal business disruption while unlocking performance, scalability, and long-term cost savings. Our approach includes assessment, modernization roadmap creation, data migration, platform engineering, and performance tuning.",
+      "howItHelps": "A modernized architecture reduces maintenance costs, increases agility, and empowers your teams with the tools needed to innovate rapidly.",
+      "businessGoals": [
+        "Reduce technical debt and future maintenance overhead",
+        "Improve application performance and high availability",
+        "Enable microservices and event-driven architecture",
+        "Accelerate feature delivery with modern platforms"
+      ],
+      "keyPoints": [
+        "Legacy to microservices transition",
+        "PaaS migration (Azure App Service, AWS ECS, GCP Cloud Run)",
+        "Containerization & Kubernetes onboarding",
+        "Database modernization and data migration",
+        "Zero-downtime migration strategy"
+      ]
+    },
+    {
+      "title": "IIoT & Industrial Analytics",
+      "slug": "industrial-iiot-analytics",
+      "desc": "Secure telemetry pipelines, anomaly detection and real-time dashboards for operations teams.",
+      "icon": "/img/services/iot.png",
+      "banner": "/img/banners/iiot.jpg",
+      "longText": "Mehtalogy builds end-to-end IIoT and industrial analytics systems that transform raw machine data into actionable insights. We integrate secure telemetry ingestion, time-series analytics, digital twins, and AI-based anomaly detection to support reliability engineering and predictive maintenance. Operations teams get real-time dashboards, KPI monitoring, and alerts that help reduce downtime and improve throughput.",
+      "howItHelps": "With IIoT and contextual analytics, industries achieve higher operational efficiency, reduced downtime, improved asset lifecycle management, and enhanced worker safety.",
+      "businessGoals": [
+        "Enable predictive maintenance and reduce downtime",
+        "Improve operational efficiency with real-time analytics",
+        "Create a unified view of machine health and production KPIs",
+        "Automate alerts and anomaly detection"
+      ],
+      "keyPoints": [
+        "Secure IoT device onboarding and telemetry pipelines",
+        "Time-series data storage and analytics",
+        "Integration with SCADA, OPC-UA, Modbus and historian systems",
+        "ML-based anomaly detection models",
+        "Custom industrial dashboards with Grafana / React"
+      ]
+    },
+    {
+      "title": "AI / OCR / Chatbots",
+      "slug": "ai-ocr-chatbots",
+      "desc": "Document extraction, knowledge graphs and automated chat workflows to reduce manual work.",
+      "icon": "/img/services/ai.png",
+      "banner": "/img/banners/ai.jpg",
+      "longText": "Mehtalogy delivers AI-powered automation solutions that drastically reduce manual workload and improve decision-making speed. Our capabilities include OCR pipelines, document extraction, semantic search, knowledge graphs, and intelligent chatbots built using LLMs. Whether you want to automate backend processes, extract insights from large documents, or build conversational assistants, we help you leverage AI safely and effectively.",
+      "howItHelps": "AI automation accelerates turnaround time, reduces human errors, and brings consistency to business workflows while allowing human teams to focus on higher-value tasks.",
+      "businessGoals": [
+        "Automate repetitive and manual workflows",
+        "Improve information retrieval and document processing",
+        "Enhance customer and employee experience using chatbots",
+        "Enable real-time decision-making with AI-driven insights"
+      ],
+      "keyPoints": [
+        "End-to-end OCR pipelines (Tesseract, AWS Textract, Azure Form Recognizer)",
+        "Document AI and structured data extraction",
+        "LLM-powered chatbots and workflow automation",
+        "Knowledge graph construction and semantic search",
+        "Secure AI deployment and data governance"
+      ]
+    },
+    {
+      "title": "DevOps Setup",
+      "slug": "devops-setup",
+      "desc": "CI/CD pipelines, GitOps, observability stacks, environment automation, and DevSecOps best practices.",
+      "icon": "/img/services/devops.png",
+      "banner": "/img/banners/devops.jpg",
+      "longText": "DevOps is the backbone of modern engineering. Mehtalogy helps organizations design, implement, and optimize DevOps workflows including CI/CD pipelines, GitOps automation, infrastructure-as-code, and complete observability stacks. From multi-environment deployment automation to cost tracking and security scanning, we empower your engineering teams to ship faster and more reliably.",
+      "howItHelps": "A strong DevOps foundation improves deployment speed, reduces outages, and enhances developer productivity across teams.",
+      "businessGoals": [
+        "Accelerate release cycles and reduce lead time",
+        "Increase deployment reliability through automation",
+        "Improve visibility with logs, metrics and traces",
+        "Shift-left security through DevSecOps"
+      ],
+      "keyPoints": [
+        "Automated CI/CD (GitHub Actions, GitLab, Azure DevOps)",
+        "GitOps platform design (ArgoCD, Flux)",
+        "Infrastructure-as-Code (Terraform, Pulumi, Bicep)",
+        "Monitoring and observability stacks (Prometheus, Grafana, Loki)",
+        "DevSecOps: SAST/DAST scanning, SBOM, vulnerability management"
+      ]
+    },
+    {      
+      "title": "Cloud Infrastructure Setup",
+      "slug": "cloud-infrastructure-setup",
+      "desc": "Design and provisioning of secure, cost-optimized multi-cloud infrastructure across AWS, Azure, GCP, and hybrid environments.",
+      "icon": "/img/services/cloud.png",
+      "banner": "/img/banners/cloud-infra.jpg",
+      "longText": "We build robust, scalable, and secure cloud infrastructures tailored to your business needs. Our team designs VPC architectures, network security, IAM controls, DR strategies, cost-optimized resource planning, and infrastructure-as-code deployments. Whether you're starting fresh or expanding globally, we help you achieve a resilient, scalable cloud foundation.",
+      "howItHelps": "A well-architected cloud foundation reduces cost, improves security, and provides a reliable platform for applications and data workloads.",
+      "businessGoals": [
+        "Enhance security with best-practice cloud governance",
+        "Reduce cloud cost through right-sizing and optimization",
+        "Improve global availability with robust networking",
+        "Automate infrastructure lifecycle using IaC"
+      ],
+      "keyPoints": [
+        "Multi-cloud VPC/VNet architecture",
+        "IAM and Zero Trust security design",
+        "High availability & disaster recovery setup",
+        "Cost-optimized resource provisioning",
+        "Infrastructure-as-Code (Terraform, CloudFormation, ARM, Bicep)"
+      ]
+    }
+  ]
+}

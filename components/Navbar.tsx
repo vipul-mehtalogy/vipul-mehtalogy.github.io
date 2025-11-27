@@ -3,15 +3,12 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import {navLinks} from "@/data/catalog.json"
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const navLinks = [
-    { text: "Home", link: "/" },
-    { text: "About Us", link: "/about" },
-    { text: "Blogs", link: "/blogs" }
-  ];
+
 
   return (
     <>

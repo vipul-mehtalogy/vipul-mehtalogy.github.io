@@ -3,57 +3,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import { FaWhatsapp } from "react-icons/fa";
+import {services} from "@/data/services.json"
 
-const services = [
-  {
-    title: "Cloud Agnostic Solutions",
-    desc: "Design and implement secure, geo-replicated cloud-native platforms (Container, Kubernetes ,Serverless Functions, DevOps).",
-    icon: "/img/services/cloud.png",
-  },
-  {
-    title: "Modernization & Migration",
-    desc: "Expertise in moving legacy apps to cloud-native PaaS and container platforms with minimal disruption.",
-    icon: "/img/services/modernize.png",
-  },  
-  {
-    title: "IIoT & Industrial Analytics",
-    desc: "Secure telemetry pipelines, anomaly detection and real-time dashboards for operations teams.",
-    icon: "/img/services/iot.png",
-  },
-  {
-    title: "AI / OCR / Chatbots",
-    desc: "Document extraction, knowledge graphs and automated chat workflows to reduce manual work.",
-    icon: "/img/services/ai.png",
-  },
-  
-];
 
-const caseStudies = [
-  {
-  title: "Jewellery Product Catalog & Real-Time Pricing",
-  subtitle: "Next.js — Dynamic Pricing, Inventory Automation, PWA",
-  impact: "Digitized retail jewellery sales with live pricing, inventory tracking, anti-theft monitoring and push notifications.",
-  href: "/case-studies/jewellery/",
-},
-  {
-    title: "Food Traceability & Safety",
-    subtitle: "IIoT — Azure, AKS, Istio",
-    impact: "Geo-replicated IIoT platform with end-to-end traceability and compliance.",
-    href: "/case-studies/food-traceability/",
-  },
-  {
-    title: "Mining Plant Advisory",
-    subtitle: "Anomaly Detection & Analytics",
-    impact: "Predictive alerts and centralized KPIs that reduced downtime and improved yield.",
-    href: "/case-studies/mining-plant-advisory/",
-  },
-  {
-    title: "Large-Scale Migration",
-    subtitle: "490+ Apps to Cloud",
-    impact: "Migration accelerators and governance enabling large-scale cloud transformation.",
-    href: "/case-studies/cloud-migration/",
-  },
-];
 
 export default function Home() {
   return (
@@ -136,7 +88,7 @@ export default function Home() {
                   <div>
                     <h3 className="font-semibold">{s.title}</h3>
                     <p className="mt-2">{s.desc}</p>
-                    <Link href="/services" className="link mt-3 inline-block">
+                    <Link href={`/services/${s.slug}`} className="link mt-3 inline-block">
                       Learn more →
                     </Link>
                   </div>

@@ -1,0 +1,41 @@
+{
+  "services": [
+    {
+      "title": "Cloud Agnostic Solutions",
+      "desc": "Design and implement secure, geo-replicated cloud-native platforms (Container, Kubernetes ,Serverless Functions, DevOps).",
+      "icon": "/img/services/cloud.png"
+    },
+    {
+      "title": "Modernization & Migration",
+      "desc": "Expertise in moving legacy apps to cloud-native PaaS and container platforms with minimal disruption.",
+      "icon": "/img/services/modernize.png"
+    },
+    {
+      "title": "IIoT & Industrial Analytics",
+      "desc": "Secure telemetry pipelines, anomaly detection and real-time dashboards for operations teams.",
+      "icon": "/img/services/iot.png"
+    },
+    {
+      "title": "AI / OCR / Chatbots",
+      "desc": "Document extraction, knowledge graphs and automated chat workflows to reduce manual work.",
+      "icon": "/img/services/ai.png"
+    },
+    {
+      "title": "DevOps Setup",
+      "desc": "CI/CD pipelines, GitOps, observability stacks, environment automation, and DevSecOps best practices tailored for your engineering teams.",
+      "icon": "/img/services/devops.png"
+    },
+    {
+      "title": "Cloud Infrastructure Setup",
+      "desc": "Design and provisioning of secure, cost-optimized multi-cloud infrastructure across AWS, Azure, GCP, and on‑prem hybrid environments.",
+      "icon": "/img/services/cloud.png"
+    }
+  ],
+    "navLinks": [
+    {"text": "Home", "link": "/" },
+    {"text": "About Us", "link": "/about" },
+    {"text": "Services", "link": "/services" },
+    {"text": "Case Studies", "link": "/case-studies" },
+    {"text": "Blogs", "link": "/blogs" }
+  ]
+}
