@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin, FaGithub, FaGlobe } from "react-icons/fa";
 import Image from "next/image";
+import { navLinks } from "@/data/catalog.json"
 
 export default function Footer() {
   return (
@@ -38,15 +39,13 @@ export default function Footer() {
             Quick Links
           </h4>
           <ul className="space-y-2 text-sm">
-            <li>
-              <Link href="/" className="transition">Home</Link>
-            </li>
-            <li>
-              <Link href="/about" className="transition">About Us</Link>
-            </li>            
-            <li>
-              <Link href="/blogs" className="transition">Blogs</Link>
-            </li>            
+            {
+              navLinks.map((n, index) => (
+                <li key={index}>
+                  <Link key={index} href={n.link} className="transition">{n.text}</Link>
+                </li>
+
+              ))}
           </ul>
         </nav>
 
@@ -77,7 +76,7 @@ export default function Footer() {
               <FaMapMarkerAlt className="text-muted text-lg mt-1" />
               <address className="text-muted">
                 197 Goyal Nagar, Indore, <br />MP, India, 452018
-                
+
               </address>
             </li>
           </ul>
