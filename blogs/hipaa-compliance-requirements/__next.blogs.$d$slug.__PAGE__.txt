@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
-2:I[18341,["/_next/static/chunks/4acf2da2631f3e8d.js","/_next/static/chunks/56107793851a41ff.js","/_next/static/chunks/4c66b610abf70460.js"],"default"]
+2:I[18341,["/_next/static/chunks/15be06c29b06e798.js","/_next/static/chunks/7934488d3240b434.js","/_next/static/chunks/4c66b610abf70460.js"],"default"]
 6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
 3:Tc9a,<h2>Health Insurance Portability and Accountability Act</h2>
@@ -67,7 +67,7 @@
 </li>
 </ul>
 <p>In the next blog, we will see how these HIPPA requirements can be translated technically for cloud-based health care solutions.</p>
-0:{"buildId":"pslQapqFes7qUJd-6A5ar","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","$L2",null,{"items":[{"name":"Home","href":"/"},{"name":"Blogs","href":"/blogs"},{"name":"HIPAA Compliance Requirements"}]}],["$","h1",null,{"className":"text-4xl font-bold","children":"HIPAA Compliance Requirements"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","4/30/2021"," • Updated 4/30/2021"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","compliance",{"className":"px-2 py-1 text-xs highlight rounded","children":"compliance"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+0:{"buildId":"q-3RMKtLbWZDZ2k0NKwOo","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","$L2",null,{"items":[{"name":"Home","href":"/"},{"name":"Blogs","href":"/blogs"},{"name":"HIPAA Compliance Requirements"}]}],["$","h1",null,{"className":"text-4xl font-bold","children":"HIPAA Compliance Requirements"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","4/30/2021"," • Updated 4/30/2021"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","compliance",{"className":"px-2 py-1 text-xs highlight rounded","children":"compliance"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
 4:["$","script","script-0",{"src":"/_next/static/chunks/4c66b610abf70460.js","async":true}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
