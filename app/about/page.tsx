@@ -3,20 +3,18 @@
 import Link from "next/link";
 import { FaHandshake, FaUserCog, FaGlobeAsia, FaRocket } from "react-icons/fa";
 import Breadcrumb from "@/components/BreadcrumbItem";
+import Mehtalogy from "@/components/Mehtalogy"
 
 export default function AboutPage() {
     return (
         <main className="min-h-screen pb-2">
             <Breadcrumb items={[{ name: "Home", href: "/" }, { name: "About Us" }]} />
-            {/* ============================= */}
-            {/* HERO SECTION */}
-            {/* ============================= */}
-            <section className="bg-background">
+           
+            <section className="text-center">
+                <div className="max-w-2xl mx-auto text-center p-2 mt-2">
+                    <h1 className="">About <Mehtalogy/></h1>
 
-                <div className="max-w-5xl mx-auto text-center p-2 mt-2">
-                    <h1 className="text-4xl font-bold mb-4">About Mehtalogy</h1>
-
-                    <p className="text-lg max-w-3xl mx-auto">
+                    <p className="text-lg max-w-2xl mx-auto">
                         Your dedicated <span className="highlight">Technology Partner</span> helping
                         businesses scale through engineering excellence, cloud solutions, and smart
                         automation.
@@ -31,7 +29,7 @@ export default function AboutPage() {
 
                 <div className="max-w-6xl mx-auto grid md:grid-cols-1 gap-12 items-center">
                     <div>
-                        <h2 className="text-3xl font-semibold mb-4">Who We Are</h2>
+                        <h2 className="mb-4 text-center">Who We Are</h2>
 
                         <p className="leading-relaxed mb-4">
                             Mehtalogy is a technology services company built on one mission: to empower SMEs and
@@ -53,7 +51,7 @@ export default function AboutPage() {
             {/* ============================= */}
             <section className="px-6 md:px-20 py-12 bg-accent/20">
                 <div className="max-w-6xl mx-auto text-center mb-10">
-                    <h2 className="text-3xl font-semibold">Why Partner With Us?</h2>
+                    <h2 className="">Why Partner With Us?</h2>
                     <p className="mt-2 max-w-3xl mx-auto">
                         We focus on measurable impact, long-term partnerships, and high-quality engineering.
                     </p>
@@ -80,7 +78,7 @@ export default function AboutPage() {
             {/* ============================= */}
             <section className="px-6 md:px-20 py-16">
                 <div className="max-w-5xl mx-auto text-center">
-                    <h2 className="text-3xl font-semibold mb-6">Our Mission</h2>
+                    <h2 className="">Our Mission</h2>
                     <p className="text-lg leading-relaxed max-w-3xl mx-auto">
                         Our goal is to support businesses in their digital transformation journey—helping them
                         build reliable systems, scale operations, reduce manual effort, and stay ahead in a
@@ -92,8 +90,8 @@ export default function AboutPage() {
             {/* ============================= */}
             {/* CTA SECTION */}
             {/* ============================= */}
-            <section className="px-6 md:px-20 py-12 text-center bg-dark text-light">
-                <h2 className="text-3xl font-semibold mb-4">Let’s Build Something Powerful Together</h2>
+            <section className="px-6 md:px-20 py-12 text-center bg-dark ">
+                <h2 className="">Let’s Build Something Powerful Together</h2>
 
                 <p className="mb-6 max-w-2xl mx-auto">
                     Whether you need cloud development, automation, or full-stack execution—we’re ready to

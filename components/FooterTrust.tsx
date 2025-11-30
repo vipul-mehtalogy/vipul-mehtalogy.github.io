@@ -4,6 +4,7 @@ import Link from "next/link";
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin, FaGithub, FaGlobe } from "react-icons/fa";
 import Image from "next/image";
 import { navLinks } from "@/data/catalog.json"
+import Mehtalogy from "@/components/Mehtalogy"
 
 export default function Footer() {
   return (
@@ -16,15 +17,17 @@ export default function Footer() {
         <div className="space-y-4">
           <Link href="/" className="hover:textde text-light flex items-center gap-3">
             <Image
-              src="/img/logo.png"
-              alt="Mehtalogy Logo"
+              src="/favicon.svg"
+              alt="Mehtalogy LABS Logo"
               width={45}
               height={45}
               className="object-contain"
             />
-            <span className="text-2xl font-semibold text-light">Mehtalogy</span>
+            <h1 className="text-4xl font-extrabold flex items-center space-x-2">
+                          <Mehtalogy />
+                        </h1>
           </Link>
-          <p className="text-light text-sm leading-relaxed">
+          <p className="text-sm leading-relaxed">
             Your dedicated <strong className="text-accent">Technology Partner</strong> —
             delivering cloud development, integrations, automation, and
             digital transformation for SMEs & enterprises.
@@ -35,7 +38,7 @@ export default function Footer() {
             QUICK NAVIGATION
         ===========================================<br />============ */}
         <nav>
-          <h4 className="text-lg text-white mb-4  pb-2">
+          <h4 className="text-lg mb-4  pb-2">
             Quick Links
           </h4>
           <ul className="space-y-2 text-sm">
@@ -53,7 +56,7 @@ export default function Footer() {
             CONTACT INFORMATION + ICONS
         ======================================================= */}
         <address className="not-italic">
-          <h4 className="text-lg  text-white mb-4  pb-2">
+          <h4 className="text-lg   mb-4  pb-2">
             Contact Us
           </h4>
 
@@ -70,7 +73,7 @@ export default function Footer() {
               <a href="tel:+919424932197" className=" transition">
                 +91 94249 32197
               </a>
-            </li>
+            </li> mb-4  pb-
 
             <li className="flex items-start gap-3">
               <FaMapMarkerAlt className="text-muted text-lg mt-1" />

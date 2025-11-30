@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
-import Breadcrumb from "@/components/BreadcrumbItem"; 
+import Breadcrumb from "@/components/BreadcrumbItem";
+import Mehtalogy from "@/components/Mehtalogy";
+
 export const metadata = {
-  title: "Large-Scale On-Prem to Cloud Migration | Mehtalogy Case Study",
+  title: "Large-Scale On-Prem to Cloud Migration | MEHTALOGY LABS Case Study",
   description:
-    "How Mehtalogy led a large-scale migration from on-premise systems to a modern, reliable, and secure cloud platform with minimal downtime.",
+    "How MEHTALOGY LABS led a large-scale migration from on-premise systems to a modern, reliable, and secure cloud platform with minimal downtime.",
   keywords: [
     "Cloud Migration",
     "On-prem to Cloud",
@@ -12,7 +14,7 @@ export const metadata = {
     "Azure Migration",
     "AWS Migration",
     "Kubernetes Migration",
-    "Mehtalogy",
+    "MEHTALOGY LABS",
     "Technology Partner",
     "Enterprise Cloud Strategy",
   ],
@@ -20,17 +22,17 @@ export const metadata = {
 
 export default function CloudMigrationCaseStudy() {
   return (
-    <main className="p-4 bg-light text-dark">
-      {/* import Breadcrumb from "@/components/BreadcrumbItem"; */}
-                  <Breadcrumb items={[{ name: "Home", href: "/" }, { name: "Case Studies",href:"/case-studies" },
-                    { name:  "Large-Scale On-Prem to Cloud Migration"}
-                  ]} />
-      {/* HERO */}
-      <section className="container mx-auto px-6 md:px-10 text-center mb-16">
-        <h1 className="text-3xl md:text-5xl font-bold text-dark mb-4">
+    <main className="p-4">
+
+      <Breadcrumb items={[{ name: "Home", href: "/" }, { name: "Case Studies", href: "/case-studies" },
+      { name: "Large-Scale On-Prem to Cloud Migration" }
+      ]} />
+
+      <section className="container mx-auto px-6 md:px-10  mb-16">
+        <h1 className="">
           Large-Scale Migration from On-Prem to Cloud
         </h1>
-        <p className="text-lg md:text-xl   max-w-3xl mx-auto">
+        <p className="text-lg mb-4">
           Enabling scalability, security, and operational efficiency through
           cloud-native modernization.
         </p>
@@ -38,15 +40,16 @@ export default function CloudMigrationCaseStudy() {
 
       {/* OVERVIEW */}
       <section className="container mx-auto px-6 md:px-10 mb-16">
-        <h2 className="text-2xl font-semibold mb-4">Overview</h2>
-        <p className="  max-w-4xl">
-          A leading banking enterprise depended on on-premise legacy systems, siloed data stores, and aging infrastructure. They partnered with <strong>Mehtalogy</strong> to design and execute a secure, phased, and zero-data-loss cloud migration—while modernizing critical platforms to cloud-native architectures.
+        <h2 className="">Overview</h2>
+        <p className="text-lg mb-4">
+          A leading banking enterprise depended on on-premise legacy systems, siloed data stores, and aging infrastructure.
+          They partnered with <Mehtalogy /> to design and execute a secure, phased, and zero-data-loss cloud migration—while modernizing critical platforms to cloud-native architectures.
         </p>
       </section>
 
       {/* CHALLENGES */}
       <section className="container mx-auto px-6 md:px-10 mb-16">
-        <h2 className="text-2xl font-semibold mb-4">Challenges</h2>
+        <h2 className="mb-4">Challenges</h2>
         <ul className="list-disc pl-6   space-y-2 max-w-4xl">
           <li>Complex legacy systems running on aging hardware</li>
           <li>High operational cost and limited scalability on-prem</li>
@@ -59,15 +62,15 @@ export default function CloudMigrationCaseStudy() {
 
       {/* SOLUTION */}
       <section className="container mx-auto px-6 md:px-10 mb-16">
-        <h2 className="text-2xl font-semibold mb-4">Solution Delivered</h2>
+        <h2 className="">Solution Delivered</h2>
 
         <p className="  max-w-4xl mb-6">
-          Mehtalogy delivered an end-to-end cloud migration program with strong emphasis
+          <Mehtalogy /> delivered an end-to-end cloud migration program with strong emphasis
           on automation, containerization, and future-proof architecture.
         </p>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl">
-          <div className="bg-white shadow-md p-6 rounded-xl border border-border-color">
+          <div className="shadow-md p-6 rounded-xl border border-border-color">
             <h3 className="text-xl font-semibold mb-2">
               Cloud Readiness & Architecture
             </h3>
@@ -77,7 +80,7 @@ export default function CloudMigrationCaseStudy() {
             </p>
           </div>
 
-          <div className="bg-white shadow-md p-6 rounded-xl border border-border-color">
+          <div className="shadow-md p-6 rounded-xl border border-border-color">
             <h3 className="text-xl font-semibold mb-2">Containerization & AKS</h3>
             <p className=" ">
               Legacy services containerized and deployed using AKS/EKS for maximum
@@ -85,7 +88,7 @@ export default function CloudMigrationCaseStudy() {
             </p>
           </div>
 
-          <div className="bg-white shadow-md p-6 rounded-xl border border-border-color">
+          <div className="shadow-md p-6 rounded-xl border border-border-color">
             <h3 className="text-xl font-semibold mb-2">
               DevOps Automation & CI/CD
             </h3>
@@ -95,7 +98,7 @@ export default function CloudMigrationCaseStudy() {
             </p>
           </div>
 
-          <div className="bg-white shadow-md p-6 rounded-xl border border-border-color">
+          <div className="shadow-md p-6 rounded-xl border border-border-color">
             <h3 className="text-xl font-semibold mb-2">
               Unified Observability
             </h3>
@@ -156,7 +159,7 @@ export default function CloudMigrationCaseStudy() {
         </h2>
         <p className="  max-w-3xl mx-auto mb-6">
           Whether you’re modernizing legacy infrastructure or scaling globally,
-          Mehtalogy can be your trusted Technology Partner.
+          <Mehtalogy /> can be your trusted Technology Partner.
         </p>
 
         <Link

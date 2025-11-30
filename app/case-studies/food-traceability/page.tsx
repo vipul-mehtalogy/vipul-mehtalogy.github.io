@@ -2,10 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
 import Breadcrumb from "@/components/BreadcrumbItem";
+import Mehtalogy from "@/components/Mehtalogy";
+
 export const metadata = {
-  title: "Case Study: Food Traceability & Safety | Mehtalogy Technology Partner",
+  title: "Case Study: Food Traceability & Safety | MEHTALOGY LABS Technology Partner",
   description:
-    "How Mehtalogy built a geo-replicated IIoT platform using Azure, AKS, and Istio to deliver end-to-end food traceability, compliance, and real-time monitoring.",
+    "How MEHTALOGY LABS built a geo-replicated IIoT platform using Azure, AKS, and Istio to deliver end-to-end food traceability, compliance, and real-time monitoring.",
   keywords: [
     "food traceability",
     "food safety",
@@ -15,24 +17,24 @@ export const metadata = {
     "Istio service mesh",
     "compliance platform",
     "geo-replicated IoT",
-    "Mehtalogy Technology Partner"
+    "MEHTALOGY LABS Technology Partner"
   ],
 };
 
 export default function CaseStudyFoodTraceability() {
   return (
-    <main className="min-h-screen bg-surface text-on-surface">
+    <main className="p-4">
 
       <Breadcrumb items={[{ name: "Home", href: "/" }, { name: "Case Studies", href: "/case-studies" },
       { name: "Food Traceability & Safety" }
       ]} />
       {/* HERO */}
-      <section className="container mx-auto p-4">
-        <h1 className="text-4xl md:text-5xl font-bold mb-6">
+      <section className="container mx-auto px-6 md:px-10  mb-16">
+        <h1 className="">
           Food Traceability & Safety <span className="text-accent">IIoT Platform</span>
         </h1>
 
-        <p className="text-lg md:text-xl max-w-3xl text-muted">
+        <p className="text-lg mb-4">
           Geo-replicated IIoT platform built on <strong>Azure</strong>, <strong>AKS</strong>, and <strong>Istio</strong>
           for end-to-end traceability, safety compliance, and predictive monitoring.
         </p>
@@ -50,16 +52,16 @@ export default function CaseStudyFoodTraceability() {
 
       {/* OVERVIEW */}
       <section className="container mx-auto p-4">
-        <h2 className="text-2xl md:text-3xl font-semibold mb-4">Overview</h2>
+        <h2 className="">Overview</h2>
 
-        <p className="text-muted max-w-4xl leading-relaxed">
-          A global food producer approached Mehtalogy to build a <strong>unified end-to-end traceability system</strong>
+        <p className="max-w-4xl leading-relaxed">
+          A global food producer approached <Mehtalogy/> to build a <strong>unified end-to-end traceability system</strong>
           across farms, processing plants, warehouses, and distributors.
           The challenge: ensuring <strong>real-time monitoring</strong>, <strong>regulatory compliance</strong>, and
           <strong>tamper-proof data integrity</strong> across geographically distributed locations.
         </p>
 
-        <p className="text-muted max-w-4xl mt-4 leading-relaxed">
+        <p className="max-w-4xl mt-4 leading-relaxed">
           The solution required a resilient, <strong>geo-replicated IIoT architecture</strong>,
           capable of processing millions of telemetry events per hour while ensuring
           <strong>99.99% uptime</strong> and seamless global failover.
@@ -68,9 +70,9 @@ export default function CaseStudyFoodTraceability() {
 
       {/* OBJECTIVES */}
       <section className="container mx-auto p-4">
-        <h2 className="text-2xl md:text-3xl font-semibold mb-6">Project Objectives</h2>
+        <h2 className="">Project Objectives</h2>
 
-        <ul className="grid md:grid-cols-2 gap-6 text-muted">
+        <ul className="grid md:grid-cols-2 gap-6">
           <li className="p-5 border border-border-light rounded-xl">
             <strong>End-to-end food traceability</strong> from farm to consumer.
           </li>
@@ -87,31 +89,31 @@ export default function CaseStudyFoodTraceability() {
       </section>
 
       {/* SOLUTION ARCHITECTURE */}
-      <section className="container mx-auto p-4bg-surface/50 rounded-xl">
-        <h2 className="text-2xl md:text-3xl font-semibold mb-6">Solution Architecture</h2>
+      <section className="container mx-auto p-4 ">
+        <h2 className="">Solution Architecture</h2>
 
-        <p className="text-muted max-w-4xl leading-relaxed mb-8">
-          Mehtalogy developed a distributed IIoT platform based on:
+        <p className=" max-w-4xl leading-relaxed mb-8">
+          <Mehtalogy/> developed a distributed IIoT platform based on:
         </p>
 
         <div className="grid md:grid-cols-3 gap-6">
           <div className="p-6 border border-border-light rounded-xl">
             <h3 className="font-semibold text-lg mb-3">Azure IIoT</h3>
-            <p className="text-muted">
+            <p className="">
               Device provisioning, secure MQTT communication, geo-replication, and message routing.
             </p>
           </div>
 
           <div className="p-6 border border-border-light rounded-xl">
             <h3 className="font-semibold text-lg mb-3">AKS Microservices</h3>
-            <p className="text-muted">
+            <p className="">
               Event processing pipelines, compliance engines, digital twin models, and batch evaluation.
             </p>
           </div>
 
           <div className="p-6 border border-border-light rounded-xl">
             <h3 className="font-semibold text-lg mb-3">Istio Service Mesh</h3>
-            <p className="text-muted">
+            <p className="">
               Zero-trust security, mTLS, traffic shaping, observability, and multi-region consistency.
             </p>
           </div>
@@ -119,10 +121,10 @@ export default function CaseStudyFoodTraceability() {
       </section>
 
       {/* RESULTS */}
-      <section className="container mx-auto px-6 md:px-12 py-16">
-        <h2 className="text-2xl md:text-3xl font-semibold mb-6">Impact & Results</h2>
+      <section className="container mx-auto p-4">
+        <h2 className="">Impact & Results</h2>
 
-        <ul className="grid md:grid-cols-2 gap-6 text-muted">
+        <ul className="grid md:grid-cols-2 gap-6 ">
           <li className="p-5 border border-border-light rounded-xl">
             <strong>40% reduction</strong> in spoilage incidents.
           </li>
@@ -143,8 +145,8 @@ export default function CaseStudyFoodTraceability() {
         <h2 className="text-2xl md:text-3xl font-semibold mb-4">
           Want to Build a High-Scale IIoT Platform?
         </h2>
-        <p className="text-muted max-w-2xl mx-auto">
-          Mehtalogy specializes in distributed cloud architectures, traceability platforms,
+        <p className="max-w-2xl mx-auto">
+          <Mehtalogy/> specializes in distributed cloud architectures, traceability platforms,
           and mission-critical industrial software.
         </p>
 

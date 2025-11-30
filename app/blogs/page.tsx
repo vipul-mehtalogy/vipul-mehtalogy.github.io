@@ -4,8 +4,8 @@ import { getAllBlogs } from "@/lib/blogs";
 
 import Breadcrumb from "@/components/BreadcrumbItem";
 export const metadata = {
-  title: "Tech Blogs | Mehtalogy",
-  description: "Technical blogs on Cloud, Integration, IIoT, Architecture, DevOps, and Software Engineering by Mehtalogy.",
+  title: "Tech Blogs | MEHTALOGY LABS",
+  description: "Technical blogs on Cloud, Integration, IIoT, Architecture, DevOps, and Software Engineering by MEHTALOGY LABS.",
 };
 
 export default function BlogListPage() {

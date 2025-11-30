@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import Mehtalogy from "@/components/Mehtalogy"
 
 import caseStudiesData from "@/data/case-studies.json";
 import Breadcrumb from "@/components/BreadcrumbItem";
@@ -12,14 +13,16 @@ export default function CaseStudiesPage() {
             {/* import Breadcrumb from "@/components/BreadcrumbItem"; */}
             <Breadcrumb items={[{ name: "Home", href: "/" }, { name: "Case Studies", }]} />
             {/* Hero Section */}
-            <section className="text-center py-20 bg-bg-light border-b border-border">
-                <h1 className="text-5xl font-extrabold text-accent mb-4">
-                    Case Studies
-                </h1>
-                <p className="text-lg text-muted max-w-2xl mx-auto">
-                    Real-world implementations showcasing Mehtalogy's engineering, cloud,
-                    IIoT, and AI expertise — delivering measurable business impact.
-                </p>
+            <section className="text-center">
+                <div className="max-w-2xl mx-auto text-center p-2 mt-2">
+                    <h1 className="">
+                        Case Studies
+                    </h1>
+                    <p className="text-lg max-w-2xl mx-auto">
+                        Real-world implementations showcasing <Mehtalogy/> engineering, cloud,
+                        IIoT, and AI expertise — delivering measurable business impact.
+                    </p>
+                </div>
             </section>
 
 
@@ -29,16 +32,16 @@ export default function CaseStudiesPage() {
                     <Link
                         key={index}
                         href={item.href}
-                        className="block border border-border rounded-2xl p-6 bg-white shadow-sm hover:shadow-md transition-shadow"
+                        className="block border border-border rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow"
                     >
-                        <h2 className="text-2xl font-bold text-primary mb-2">
+                        <h2 className="text-2xl mb-2">
                             {item.title}
                         </h2>
                         <p className="text-muted text-sm mb-3">{item.subtitle}</p>
                         <p className="text-foreground text-base leading-relaxed">
                             {item.impact}
                         </p>
-                        <div className="mt-4 text-primary hover:text-accent font-semibold">
+                        <div className="mt-4 font-semibold">
                             Read More →
                         </div>
                     </Link>
@@ -50,7 +53,7 @@ export default function CaseStudiesPage() {
 
 
 export const metadata = {
-    title: "Case Studies | Mehtalogy",
+    title: "Case Studies | MEHTALOGY LABS",
     description:
-        "Explore Mehtalogy’s real-world engineering, cloud, AI, and IIoT case studies demonstrating tangible business outcomes.",
+        "Explore MEHTALOGY LABS real-world engineering, cloud, AI, and IIoT case studies demonstrating tangible business outcomes.",
 };

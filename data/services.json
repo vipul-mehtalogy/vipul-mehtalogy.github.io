@@ -6,7 +6,7 @@
       "desc": "Design and implement secure, geo-replicated cloud-native platforms (Containers, Kubernetes, Serverless Functions, DevOps).",
       "icon": "/img/services/cloud.png",
       "banner": "/img/banners/cloud-agnostic.jpg",
-      "longText": "Mehtalogy helps enterprises build cloud-agnostic platforms designed to run seamlessly across AWS, Azure, GCP, or on-prem environments. Our engineering-first approach ensures portability, scalability, and vendor independence so that your digital infrastructure stays future-proof. We implement fully automated pipelines, geo-replicated architectures, Kubernetes clusters, serverless workflows, and DevOps toolchains that accelerate deployment cycles and reduce operational overhead.",
+      "longText": "MEHTALOGY LABS helps enterprises build cloud-agnostic platforms designed to run seamlessly across AWS, Azure, GCP, or on-prem environments. Our engineering-first approach ensures portability, scalability, and vendor independence so that your digital infrastructure stays future-proof. We implement fully automated pipelines, geo-replicated architectures, Kubernetes clusters, serverless workflows, and DevOps toolchains that accelerate deployment cycles and reduce operational overhead.",
       "howItHelps": "By decoupling your business from a single cloud provider, our cloud-agnostic platforms reduce cost risks, improve operational resilience, and allow your teams to deploy globally with confidence.",
       "businessGoals": [
         "Avoid vendor lock-in and enable multi-cloud flexibility",
@@ -28,7 +28,7 @@
       "desc": "Expertise in moving legacy apps to cloud-native PaaS and container platforms with minimal disruption.",
       "icon": "/img/services/modernize.png",
       "banner": "/img/banners/modernization.jpg",
-      "longText": "Legacy systems often limit innovation and scalability. Mehtalogy modernizes your software landscape by re-platforming, containerizing, or re-architecting applications for the cloud. We ensure minimal business disruption while unlocking performance, scalability, and long-term cost savings. Our approach includes assessment, modernization roadmap creation, data migration, platform engineering, and performance tuning.",
+      "longText": "Legacy systems often limit innovation and scalability. MEHTALOGY LABS modernizes your software landscape by re-platforming, containerizing, or re-architecting applications for the cloud. We ensure minimal business disruption while unlocking performance, scalability, and long-term cost savings. Our approach includes assessment, modernization roadmap creation, data migration, platform engineering, and performance tuning.",
       "howItHelps": "A modernized architecture reduces maintenance costs, increases agility, and empowers your teams with the tools needed to innovate rapidly.",
       "businessGoals": [
         "Reduce technical debt and future maintenance overhead",
@@ -50,7 +50,7 @@
       "desc": "Secure telemetry pipelines, anomaly detection and real-time dashboards for operations teams.",
       "icon": "/img/services/iot.png",
       "banner": "/img/banners/iiot.jpg",
-      "longText": "Mehtalogy builds end-to-end IIoT and industrial analytics systems that transform raw machine data into actionable insights. We integrate secure telemetry ingestion, time-series analytics, digital twins, and AI-based anomaly detection to support reliability engineering and predictive maintenance. Operations teams get real-time dashboards, KPI monitoring, and alerts that help reduce downtime and improve throughput.",
+      "longText": "MEHTALOGY LABS builds end-to-end IIoT and industrial analytics systems that transform raw machine data into actionable insights. We integrate secure telemetry ingestion, time-series analytics, digital twins, and AI-based anomaly detection to support reliability engineering and predictive maintenance. Operations teams get real-time dashboards, KPI monitoring, and alerts that help reduce downtime and improve throughput.",
       "howItHelps": "With IIoT and contextual analytics, industries achieve higher operational efficiency, reduced downtime, improved asset lifecycle management, and enhanced worker safety.",
       "businessGoals": [
         "Enable predictive maintenance and reduce downtime",
@@ -72,7 +72,7 @@
       "desc": "Document extraction, knowledge graphs and automated chat workflows to reduce manual work.",
       "icon": "/img/services/ai.png",
       "banner": "/img/banners/ai.jpg",
-      "longText": "Mehtalogy delivers AI-powered automation solutions that drastically reduce manual workload and improve decision-making speed. Our capabilities include OCR pipelines, document extraction, semantic search, knowledge graphs, and intelligent chatbots built using LLMs. Whether you want to automate backend processes, extract insights from large documents, or build conversational assistants, we help you leverage AI safely and effectively.",
+      "longText": "MEHTALOGY LABS delivers AI-powered automation solutions that drastically reduce manual workload and improve decision-making speed. Our capabilities include OCR pipelines, document extraction, semantic search, knowledge graphs, and intelligent chatbots built using LLMs. Whether you want to automate backend processes, extract insights from large documents, or build conversational assistants, we help you leverage AI safely and effectively.",
       "howItHelps": "AI automation accelerates turnaround time, reduces human errors, and brings consistency to business workflows while allowing human teams to focus on higher-value tasks.",
       "businessGoals": [
         "Automate repetitive and manual workflows",
@@ -94,7 +94,7 @@
       "desc": "CI/CD pipelines, GitOps, observability stacks, environment automation, and DevSecOps best practices.",
       "icon": "/img/services/devops.png",
       "banner": "/img/banners/devops.jpg",
-      "longText": "DevOps is the backbone of modern engineering. Mehtalogy helps organizations design, implement, and optimize DevOps workflows including CI/CD pipelines, GitOps automation, infrastructure-as-code, and complete observability stacks. From multi-environment deployment automation to cost tracking and security scanning, we empower your engineering teams to ship faster and more reliably.",
+      "longText": "DevOps is the backbone of modern engineering. MEHTALOGY LABS helps organizations design, implement, and optimize DevOps workflows including CI/CD pipelines, GitOps automation, infrastructure-as-code, and complete observability stacks. From multi-environment deployment automation to cost tracking and security scanning, we empower your engineering teams to ship faster and more reliably.",
       "howItHelps": "A strong DevOps foundation improves deployment speed, reduces outages, and enhances developer productivity across teams.",
       "businessGoals": [
         "Accelerate release cycles and reduce lead time",

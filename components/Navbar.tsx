@@ -3,7 +3,8 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import {navLinks} from "@/data/catalog.json"
+import { navLinks } from "@/data/catalog.json"
+import Mehtalogy from "@/components/Mehtalogy"
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,14 +14,14 @@ export default function Navbar() {
   return (
     <>
       {/* Spacer to push content down */}
-      <div className="h-20 md:h-20"></div>
+      <div className="h-14"></div>
 
       <nav
         aria-label="Main Navigation"
         className="
           fixed top-0 left-0 w-full z-50
-          bg-light
-          border-b border-border-light
+          bg-light/50
+          shadow-sm backdrop-blur-md
         "
       >
         <div className="container mx-auto flex items-center justify-between py-4 px-6 md:px-10">
@@ -28,14 +29,17 @@ export default function Navbar() {
           {/* LOGO */}
           <Link href="/" className="flex items-center gap-3">
             <Image
-              src="/img/logo.png"
+              src="/favicon.svg"
               alt="Mehtalogy Technology Partner Logo"
               width={40}
               height={40}
               priority
               className="object-contain"
             />
-            <h1 className="text-2xl font-semibold">Mehtalogy</h1>
+            <h1 className="text-4xl font-extrabold flex items-center space-x-2">
+              <Mehtalogy />
+            </h1>
+
           </Link>
 
           {/* Desktop Nav */}

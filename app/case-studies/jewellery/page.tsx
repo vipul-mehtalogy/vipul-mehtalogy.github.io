@@ -3,24 +3,24 @@ import Breadcrumb from "@/components/BreadcrumbItem";
 
 
 export const metadata = {
-  title: "Case Study: Jewellery Product Catalog & Real-Time Pricing | Mehtalogy",
+  title: "Case Study: Jewellery Product Catalog & Real-Time Pricing | MEHTALOGY LABS",
   description:
-    "How Mehtalogy transformed a traditional jewellery business with live pricing, inventory tracking, product automation and anti-theft digital systems.",
+    "How MEHTALOGY LABS transformed a traditional jewellery business with live pricing, inventory tracking, product automation and anti-theft digital systems.",
 };
 
 export default function JewelleryCaseStudy() {
   return (
-    <main className="min-h-screen bg-light px-6 py-12">
+    <main className="p-4">
 
       <Breadcrumb items={[{ name: "Home", href: "/" }, { name: "Case Studies", href: "/case-studies" },
       { name: "Jewellery Product Catalog" }
       ]} />
-      <section className="max-w-5xl mx-auto">
-        <h1 className="text-4xl font-bold text-gray-900 mb-6">
+      <section className="container mx-auto px-6 md:px-10 mb-16">
+        <h1 className="">
           Jewellery Product Catalog & Real-time Pricing Transformation
         </h1>
 
-        <p className="text-lg text-gray-700 mb-4">
+        <p className="text-lg mb-4">
           Jewellery retailers face challenges unique to the industry: rapidly fluctuating
           prices, multi-variant products, inventory shrinkage, and operational
           inefficiency. We helped Sapna Shri Jewellers digitize their entire sales and
@@ -36,8 +36,8 @@ export default function JewelleryCaseStudy() {
           className="rounded-xl shadow-lg mb-8"
         />
 
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">The Challenge</h2>
-        <ul className="list-disc list-inside space-y-2 text-gray-700 mb-6">
+        <h2 className="">The Challenge</h2>
+        <ul className="list-disc list-inside space-y-2 mb-6">
           <li>Pricing changes multiple times a day</li>
           <li>No central catalog for products and variants</li>
           <li>Product listing changes were manual & slow</li>
@@ -46,8 +46,8 @@ export default function JewelleryCaseStudy() {
           <li>Theft risk and missing item tracking was manual</li>
         </ul>
 
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">Our Solution</h2>
-        <p className="text-gray-700 mb-6">
+        <h2 className="">Our Solution</h2>
+        <p className="">
           We built a hybrid platform that provides a real-time connected product
           catalog, automated pricing engine, and a digital inventory intelligence layer.
         </p>
@@ -91,9 +91,9 @@ export default function JewelleryCaseStudy() {
             title="Daily Reports & Analytics"
             description="Track daily sales, view product demand, performance and generate operational insights automatically." />
         </div>
-
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">Business Impact</h2>
-        <ul className="list-disc list-inside space-y-2 text-gray-700 mb-6">
+text-muted
+        <h2 className="">Business Impact</h2>
+        <ul className="list-disc list-inside space-y-2 mb-6">
           <li>Higher customer trust due to real-time pricing</li>
           <li>Inventory is always up-to-date</li>
           <li>Reduced manual work and operational errors</li>
@@ -101,8 +101,8 @@ export default function JewelleryCaseStudy() {
           <li>Enhanced security and stock intelligence</li>
         </ul>
 
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">Technology Stack</h2>
-        <ul className="list-disc list-inside space-y-2 text-gray-700 mb-6">
+        <h2 className="">Technology Stack</h2>
+        <ul className="list-disc list-inside space-y-2 mb-6">
           <li>Next.js + Static Generation + Dynamic Routing</li>
           <li>Cloud based worker service for pricing updates</li>
           <li>Inventory sync and catalog automation</li>
@@ -111,12 +111,12 @@ export default function JewelleryCaseStudy() {
 
 
       </section>
-      <section className="max-w-5xl mx-auto bg-accent p-6 rounded-xl border border-blue-200 mt-12 mb-12">
+      <section className="container mx-auto px-6 md:px-10 text-center mt-20">
         <h2 className="">
           Live Implementation
         </h2>
 
-        <div className="flex items-center gap-4 mb-4">
+        <div className="flex items-center gap-4 mb-4 text-center justify-center">
           <Image
             src="/img/case-studies/jewellery/favicon.svg"
             alt="Sapna Shri Jewellers Logo"
@@ -124,7 +124,7 @@ export default function JewelleryCaseStudy() {
             width="40"
             height="40"
           />
-          <p className="text-gray-700">
+          <p className="">
             This platform powers Sapna Shri Jewellers’ live product catalog, pricing
             engine and sales automation.
           </p>

@@ -1,3 +1,5 @@
+import { ThemeProvider } from "next-themes";
+
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -34,7 +36,6 @@ export const metadata: Metadata = {
   keywords: [
     "technology partner",
     "software development",
-    "PWA developer",
     "enterprise solutions",
     "SME digital transformation",
     "mobile app development",
@@ -59,7 +60,7 @@ export const metadata: Metadata = {
     shortcut: ["/favicon.ico"],
   },
 
-  
+
 
   openGraph: {
     title: "Mehtalogy | Your Strategic Technology Partner",
@@ -69,9 +70,9 @@ export const metadata: Metadata = {
     siteName: "Mehtalogy",
     images: [
       {
-        url: "/opengraph-image.png",
-        width: 1200,
-        height: 630,
+        url: "/mehtalogy.svg",
+        width: 600,
+        height: 600,
         alt: "Mehtalogy Technology Partner Banner",
       },
     ],
@@ -105,29 +106,34 @@ export const viewport: Viewport = {
 /* -----------------------------------
    🌐 Root Layout
 ------------------------------------ */
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`theme-blue ${geistSans.variable} ${geistMono.variable} antialiased 
-                    flex flex-col min-h-screen transition-colors`}
-      >
-        {/* Sticky Navbar */}
-        <header className="sticky top-0 z-50 shadow-sm bg-white/80 backdrop-blur-md">
-          <Navbar />
-        </header>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
 
-        {/* Main Content */}
-        <main className="flex-grow container mx-auto px-4 py-6">
-          {children}
-        </main>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="theme-black"
+          enableSystem={false}
+          value={{
+            "theme-blue": "theme-blue",
+            "theme-black": "theme-black",
+            "theme-light": "theme-light",
+            "theme-modern": "theme-modern",
+          }}
+        >
 
-        {/* Footer */}
-        <FooterTrust />
+          <header className="sticky top-0 z-50">
+            <Navbar />
+          </header>
+
+          <main className="flex-grow container mx-auto px-4 py-6">
+            {children}
+          </main>
+
+          <FooterTrust />
+
+        </ThemeProvider>
       </body>
     </html>
   );

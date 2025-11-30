@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 /* ==========================================
-   ROOT — DEFAULT THEME (theme-blue)
+   THEME VARIABLES
+   Each theme defines variables used throughout the site
 ========================================== */
-:root {
+
+/* ---------- BLUE THEME (default) ---------- */
+:root.theme-blue {
   --primary: #0A58CA;
-  /* Darker blue */
   --primary-foreground: #ffffff;
-  /* Button text (always white) */
 
   --accent: #063a86;
-  /* Much darker blue */
   --secondary: #e9f2ff;
   --muted: #6c7a89;
   --border: #d0d7e2;
@@ -30,8 +30,84 @@
   --highlight-text: #ffffff;
 }
 
+/* ---------- DARK / BLACK THEME ---------- */
+:root.theme-black {
+  --primary: #0A58CA;
+  --primary-foreground: #ffffff;
+
+  --accent: #2a5bd7;
+  --secondary: #1f1f1f;
+  --muted: #a0a0a0;
+  --border: #333333;
+
+  --background: #000000;
+  --foreground: #f4f4f5;
+
+  --text-light: #ffffff;
+  --text-dark: #f4f4f5;
+  --text-accent: var(--primary);
+
+  --bg-light: #1a1a1a;
+  --bg-dark: #000000;
+  --bg-accent: #0a58ca33;
+
+  --highlight-bg: var(--primary);
+  --highlight-text: #ffffff;
+}
+
+/* ---------- LIGHT THEME ---------- */
+:root.theme-light {
+  --primary: #007bff;
+  --primary-foreground: #ffffff;
+
+  --accent: #0056b3;
+  --secondary: #f8f9fa;
+  --muted: #6c757d;
+  --border: #dee2e6;
+
+  --background: #ffffff;
+  --foreground: #212529;
+
+  --text-light: #ffffff;
+  --text-dark: #212529;
+  --text-accent: var(--primary);
+
+  --bg-light: #f8f9fa;
+  --bg-dark: #e9ecef;
+  --bg-accent: #cce5ff;
+
+  --highlight-bg: var(--primary);
+  --highlight-text: #ffffff;
+}
+
+/* ---------- MODERN THEME (example futuristic) ---------- */
+:root.theme-modern {
+  --primary: #00ffd5;
+  --primary-foreground: #000000;
+
+  --accent: #00b8a9;
+  --secondary: #121212;
+  --muted: #888888;
+  --border: #333333;
+
+  --background: #0d0d0d;
+  --foreground: #ffffff;
+
+  --text-light: #ffffff;
+  --text-dark: #e0e0e0;
+  --text-accent: var(--primary);
+
+  --bg-light: #1a1a1a;
+  --bg-dark: #0d0d0d;
+  --bg-accent: #00ffd533;
+
+  --highlight-bg: var(--primary);
+  --highlight-text: #000000;
+}
+
 /* ==========================================
    TAILWIND THEME BINDINGS
+   Map CSS variables to Tailwind-friendly vars
 ========================================== */
 @theme inline {
   --color-background: var(--background);
@@ -61,6 +137,9 @@
 /* ==========================================
    BASE ELEMENTS
 ========================================== */
+html {
+  color-scheme: light dark;
+}
 body {
   background: var(--background);
   color: var(--foreground);
@@ -88,7 +167,6 @@ footer a:hover {
   text-decoration: none;
 }
 
-/* Highlight chip */
 .highlight {
   background: var(--highlight-bg);
   color: var(--highlight-text);
@@ -101,39 +179,17 @@ footer a:hover {
 ========================================== */
 @layer utilities {
 
-  .bg-light {
-    background: var(--bg-light);
-  }
+  .bg-light { background: var(--bg-light); }
+  .bg-dark { background: var(--bg-dark); }
+  .bg-accent { background: var(--bg-accent); }
 
-  .bg-dark {
-    background: var(--bg-dark);
-  }
-
-  .bg-accent {
-    background: var(--bg-accent);
-  }
-
-  .text-light {
-    color: var(--text-light);
-  }
-
-  .text-dark {
-    color: var(--text-dark);
-  }
-
-  .text-accent {
-    color: var(--text-accent);
-  }
+  .text-light { color: var(--text-light); }
+  .text-dark { color: var(--text-dark); }
+  .text-accent { color: var(--text-accent); }
 
   /* Scrollbar fix */
-  .scrollbar-hide::-webkit-scrollbar {
-    display: none;
-  }
-
-  .scrollbar-hide {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-  }
+  .scrollbar-hide::-webkit-scrollbar { display: none; }
+  .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
 
   .btn-cancel {
     background-color: var(--muted) !important;
@@ -147,17 +203,7 @@ footer a:hover {
     @apply px-6 py-3 rounded-lg hover:bg-accent transition-colors duration-200 inline-flex items-center justify-center shadow-md;
   }
 
-
-
-  h1 {
-    @apply text-4xl md:text-5xl font-extrabold leading-tight tracking-tight;
-  }
-
-  h2 {
-    @apply text-3xl md:text-4xl font-bold leading-snug tracking-tight;
-  }
-
-  h3 {
-    @apply text-2xl md:text-3xl font-semibold leading-snug tracking-normal;
-  }
+  h1 { @apply text-4xl md:text-5xl font-extrabold leading-tight tracking-tight; }
+  h2 { @apply text-3xl md:text-4xl font-bold leading-snug tracking-tight; }
+  h3 { @apply text-2xl md:text-3xl font-semibold leading-snug tracking-normal; }
 }
