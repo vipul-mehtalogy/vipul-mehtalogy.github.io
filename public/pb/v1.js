@@ -36,12 +36,25 @@ if (el) {
         </span>
       </div>
     `;
+
+    el.style.display = 'flex';
+    el.style.alignItems = 'center';
+    el.style.justifyContent = "center";
+    el.style.backgroundColor = "black";
+    el.style.textDecoration = "none";
+    el.style.cursor = "pointer";
+
+    // fix underline on hover
+    el.addEventListener("mouseenter", () => {
+        el.style.textDecoration = "none";
+    });
+    el.addEventListener("mouseleave", () => {
+        el.style.textDecoration = "none";
+    });
 }
 
-el.style.display = 'flex';
-el.style.alignItems = 'center';
-el.style.backgroundColor ="black";
-el.style.justifyContent = "center";
+
+
 
 /*
 
@@ -57,5 +70,5 @@ import Script from "next/script";
         
 <Script src="https://mehtalogy.in/pb/v1.js" 
         strategy="afterInteractive" />
-      </body>
+      
 */
