@@ -106,10 +106,15 @@ export const viewport: Viewport = {
 /* -----------------------------------
    🌐 Root Layout
 ------------------------------------ */
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+    <html lang="en" className=""
+    suppressHydrationWarning >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased p-4`}>
 
         <ThemeProvider
           attribute="class"
@@ -123,11 +128,11 @@ export default function RootLayout({ children }) {
           }}
         >
 
-          <header className="sticky top-0 z-50">
+          <header className="sticky top-0 z-50 overflow-x-hidden w-full">
             <Navbar />
           </header>
 
-          <main className="flex-grow container mx-auto px-4 py-6">
+          <main className="grow container mx-auto w-full">
             {children}
           </main>
 

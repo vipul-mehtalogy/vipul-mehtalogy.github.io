@@ -8,8 +8,8 @@ import Mehtalogy from "@/components/Mehtalogy"
 
 export default function Footer() {
   return (
-    <footer className="bg-bg-dark  py-12 mt-16 border-t border-border-color">
-      <div className="container mx-auto px-6 md:px-10 grid grid-cols-1 md:grid-cols-3 gap-10">
+    <footer className="bg-bg-dark  py-12 border-t border-border-color">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
 
         {/* ======================================================
            BRAND + SHORT MISSION
@@ -23,7 +23,7 @@ export default function Footer() {
               height={45}
               className="object-contain"
             />
-            <h1 className="text-4xl font-extrabold flex items-center space-x-2">
+            <h1 className="">
                           <Mehtalogy />
                         </h1>
           </Link>

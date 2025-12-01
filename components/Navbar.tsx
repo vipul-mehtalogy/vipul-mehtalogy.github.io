@@ -18,13 +18,10 @@ export default function Navbar() {
 
       <nav
         aria-label="Main Navigation"
-        className="
-          fixed top-0 left-0 w-full z-50
-          bg-light/50
-          shadow-sm backdrop-blur-md
-        "
+        className="fixed top-0 left-0 w-full z-50 max-w-7xl mx-auto flex flex-wrap
+          bg-light/50 shadow-sm backdrop-blur-md"
       >
-        <div className="container mx-auto flex items-center justify-between py-4 px-6 md:px-10">
+        <div className="container mx-auto flex items-center justify-between p-4 ">
 
           {/* LOGO */}
           <Link href="/" className="flex items-center gap-3">
@@ -36,7 +33,7 @@ export default function Navbar() {
               priority
               className="object-contain"
             />
-            <h1 className="text-4xl font-extrabold flex items-center space-x-2">
+            <h1 className="">
               <Mehtalogy />
             </h1>
 
