@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
-2:I[18341,["/_next/static/chunks/7e62b56370da4b81.js","/_next/static/chunks/ad6f8c9fb69f4c0b.js","/_next/static/chunks/4c66b610abf70460.js"],"default"]
+2:I[18341,["/_next/static/chunks/481e7da7b111b978.js","/_next/static/chunks/ad6f8c9fb69f4c0b.js","/_next/static/chunks/4c66b610abf70460.js"],"default"]
 6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
 3:T1144,<p>Azure Firewall: A Comprehensive Security Solution for Cloud-Native Applications</p>
@@ -41,7 +41,7 @@
 </ul>
 <h3>Conclusion:</h3>
 <p>Azure Firewall is an essential component of a comprehensive cloud security strategy, providing robust protection for your cloud-native applications against a wide range of evolving cyber threats. Its deep threat intelligence, granular policy controls, and integration with other Azure services make it a powerful tool for safeguarding your applications and data in the cloud.</p>
-0:{"buildId":"9_P6J8Pd1MoCsGs7-qrE9","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","$L2",null,{"items":[{"name":"Home","href":"/"},{"name":"Blogs","href":"/blogs"},{"name":"Azure Firewall"}]}],["$","h1",null,{"className":"text-4xl font-bold","children":"Azure Firewall"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","11/28/2023"," • Updated 11/28/2023"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","Azure",{"className":"px-2 py-1 text-xs highlight rounded","children":"Azure"}],["$","span","Cyber-Security",{"className":"px-2 py-1 text-xs highlight rounded","children":"Cyber-Security"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+0:{"buildId":"MCaC4b5Oi8iw_svNavVM8","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","$L2",null,{"items":[{"name":"Home","href":"/"},{"name":"Blogs","href":"/blogs"},{"name":"Azure Firewall"}]}],["$","h1",null,{"className":"text-4xl font-bold","children":"Azure Firewall"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","11/28/2023"," • Updated 11/28/2023"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","Azure",{"className":"px-2 py-1 text-xs highlight rounded","children":"Azure"}],["$","span","Cyber-Security",{"className":"px-2 py-1 text-xs highlight rounded","children":"Cyber-Security"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
 4:["$","script","script-0",{"src":"/_next/static/chunks/4c66b610abf70460.js","async":true}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
