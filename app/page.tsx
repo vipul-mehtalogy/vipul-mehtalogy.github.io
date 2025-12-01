@@ -2,13 +2,14 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { FaWhatsapp } from "react-icons/fa";
+import * as FaIcons from "react-icons/fa";
 import {services} from "@/data/services.json"
 import {caseStudies} from "@/data/case-studies.json"
-
+import {Service} from "@/data/types"
 
 
 export default function Home() {
+  const FaWhatsapp = (FaIcons as Record<string, React.ElementType>)["FaWhatsapp"];
   return (
     <main className="theme-blue">
       {/* HERO */}
@@ -80,11 +81,14 @@ export default function Home() {
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
-            {services.map((s) => (
+            {services.map((s:Service) =>{
+            const Icon = (FaIcons as Record<string, React.ElementType>)[s.icon];
+            return(
               <article key={s.title} className="card card-elevated p-5">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center">
-                    <Image src={s.icon} alt="" width={28} height={28} />
+                  <div className="p-2 rounded-lg bg-accent/10 flex items-center justify-center">
+                    <Icon className="text-3xl text-primary"/>
+                    {/* <Image src={s.icon} alt="" width={28} height={28} /> */}
                   </div>
                   <div>
                     <h3 className="font-semibold">{s.title}</h3>
@@ -94,8 +98,8 @@ export default function Home() {
                     </Link>
                   </div>
                 </div>
-              </article>
-            ))}
+              </article>            );
+            })}
           </div>
         </div>
       </section>
