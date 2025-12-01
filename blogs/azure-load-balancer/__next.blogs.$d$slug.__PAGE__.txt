@@ -1,7 +1,7 @@
 1:"$Sreact.fragment"
-2:I[18341,["/_next/static/chunks/481e7da7b111b978.js","/_next/static/chunks/ad6f8c9fb69f4c0b.js","/_next/static/chunks/4c66b610abf70460.js"],"default"]
-4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
-5:"$Sreact.suspense"
+2:I[22016,["/_next/static/chunks/a9b744db7ed4cfca.js"],""]
+5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
 3:T9f8,<p>Azure Load Balancer (ALB) is a Layer 4 load balancer that distributes incoming traffic across multiple backend servers. ALB is a critical component for highly available and scalable applications, ensuring that users can access your applications without any downtime or performance degradation.</p>
 <h3>Benefits of Azure Load Balancer</h3>
 <p>ALB offers a range of benefits for your Azure applications:</p>
@@ -22,5 +22,6 @@
 <p>ALB can handle a massive scale, supporting up to 1000 backend VMs. This makes it suitable for even the most demanding applications.</p>
 <h3>In Conclusion</h3>
 <p>Azure Load Balancer is an essential tool for ensuring the availability, scalability, and performance of your Azure applications. By leveraging ALB, you can provide a seamless and responsive user experience, even under heavy traffic loads and during unexpected events.</p>
-0:{"buildId":"MCaC4b5Oi8iw_svNavVM8","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","$L2",null,{"items":[{"name":"Home","href":"/"},{"name":"Blogs","href":"/blogs"},{"name":"Azure Load Balancer"}]}],["$","h1",null,{"className":"text-4xl font-bold","children":"Azure Load Balancer"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","11/28/2023"," • Updated 11/28/2023"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","Azure",{"className":"px-2 py-1 text-xs highlight rounded","children":"Azure"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/4c66b610abf70460.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
-6:null
+0:{"buildId":"FP8tAMK0ZgBpb13r3ECmz","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto px-6 prose dark:prose-invert max-w-3xl","children":[["$","nav",null,{"aria-label":"Breadcrumb","className":"flex items-center space-x-1  mb-4 px-6","children":[["$","span","0",{"className":"flex items-center","children":[["$","$L2",null,{"href":"/","className":"hover:text-accent transition-colors pr-2","children":"Home"}],">"]}],["$","span","1",{"className":"flex items-center","children":[["$","$L2",null,{"href":"/blogs","className":"hover:text-accent transition-colors pr-2","children":"Blogs"}],">"]}],["$","span","2",{"className":"flex items-center","children":[["$","span",null,{"className":"text-accent font-medium","children":"Azure Load Balancer"}],false]}]]}],["$","h1",null,{"className":"text-4xl font-bold","children":"Azure Load Balancer"}],["$","p",null,{"className":"text-muted text-sm mt-2","children":["Published on ","11/28/2023"," • Updated 11/28/2023"]}],["$","div",null,{"className":"flex gap-2 mt-4","children":[["$","span","Azure",{"className":"px-2 py-1 text-xs highlight rounded","children":"Azure"}]]}],["$","article",null,{"className":"mt-8","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null
