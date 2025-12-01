@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/BreadcrumbItem";
 import Mehtalogy from "@/components/Mehtalogy";
 
 export const metadata = {
-  title: "Large-Scale On-Prem to Cloud Migration | MEHTALOGY LABS Case Study",
+  title: "Large-Scale On-Prem to Cloud Migration | Mehtalogy LABS Case Study",
   description:
-    "How MEHTALOGY LABS led a large-scale migration from on-premise systems to a modern, reliable, and secure cloud platform with minimal downtime.",
+    "How Mehtalogy LABS led a large-scale migration from on-premise systems to a modern, reliable, and secure cloud platform with minimal downtime.",
   keywords: [
     "Cloud Migration",
     "On-prem to Cloud",
@@ -14,7 +14,7 @@ export const metadata = {
     "Azure Migration",
     "AWS Migration",
     "Kubernetes Migration",
-    "MEHTALOGY LABS",
+    "Mehtalogy LABS",
     "Technology Partner",
     "Enterprise Cloud Strategy",
   ],

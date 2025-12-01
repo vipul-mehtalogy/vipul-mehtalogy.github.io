@@ -57,7 +57,7 @@ export default function AboutPage() {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-4 gap-8 max-w-6xl mx-auto">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
                     {[
                         { icon: FaHandshake, title: "Partnership-First", desc: "We work with you as a strategic ally, not a vendor." },
                         { icon: FaUserCog, title: "Engineering Excellence", desc: "Modern, scalable, and maintainable tech solutions." },

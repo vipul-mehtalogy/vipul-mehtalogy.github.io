@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/BreadcrumbItem";
 import Mehtalogy from "@/components/Mehtalogy";
 
 export const metadata = {
-  title: "Mining Plant Advisory | MEHTALOGY LABS Case Study",
+  title: "Mining Plant Advisory | Mehtalogy LABS Case Study",
   description:
-    "How MEHTALOGY LABS built a real-time Mining Plant Advisory system leveraging cloud, IoT, edge automation, and intelligent analytics to optimize operations.",
+    "How Mehtalogy LABS built a real-time Mining Plant Advisory system leveraging cloud, IoT, edge automation, and intelligent analytics to optimize operations.",
   keywords: [
     "Mining Advisory",
     "Plant Advisory System",
@@ -14,7 +14,7 @@ export const metadata = {
     "Industrial IoT",
     "Real-time monitoring",
     "Mining operations",
-    "MEHTALOGY LABS",
+    "Mehtalogy LABS",
     "Technology Partner",
   ],
 };

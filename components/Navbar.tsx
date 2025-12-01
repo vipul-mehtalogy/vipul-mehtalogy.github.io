@@ -18,13 +18,12 @@ export default function Navbar() {
 
       <nav
         aria-label="Main Navigation"
-        className="fixed top-0 left-0 w-full z-50 max-w-7xl mx-auto flex flex-wrap
-          bg-light/50 shadow-sm backdrop-blur-md"
-      >
-        <div className="container mx-auto flex items-center justify-between p-4 ">
+        className="fixed top-0 w-full z-50  mx-auto flex flex-wrap
+          bg-light/50 shadow-lg backdrop-blur-md ">
+        <div className="container mx-auto flex items-center justify-between p-2">
 
           {/* LOGO */}
-          <Link href="/" className="flex items-center gap-3">
+          <Link href="/" className="flex items-center gap-2">
             <Image
               src="/favicon.svg"
               alt="Mehtalogy Technology Partner Logo"
@@ -40,7 +39,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex gap-4">
             {navLinks.map((item) => (
               <Link
                 key={item.link}
@@ -69,8 +68,8 @@ export default function Navbar() {
 
         {/* Mobile Menu */}
         {menuOpen && (
-          <div className="md:hidden bg-light border-t border-border-light z-50">
-            <div className="flex flex-col gap-4 p-4">
+          <div className="absolute right-0 top-10 md:hidden z-50 bg-background shadow-lg">
+            <div className="flex flex-col gap-4 p-4 items-end">
               {navLinks.map((item) => (
                 <Link
                   key={item.link}

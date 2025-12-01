@@ -3,9 +3,9 @@ import Breadcrumb from "@/components/BreadcrumbItem";
 
 
 export const metadata = {
-  title: "Case Study: Jewellery Product Catalog & Real-Time Pricing | MEHTALOGY LABS",
+  title: "Case Study: Jewellery Product Catalog & Real-Time Pricing | Mehtalogy LABS",
   description:
-    "How MEHTALOGY LABS transformed a traditional jewellery business with live pricing, inventory tracking, product automation and anti-theft digital systems.",
+    "How Mehtalogy LABS transformed a traditional jewellery business with live pricing, inventory tracking, product automation and anti-theft digital systems.",
 };
 
 export default function JewelleryCaseStudy() {

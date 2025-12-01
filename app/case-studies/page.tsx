@@ -53,7 +53,7 @@ export default function CaseStudiesPage() {
 
 
 export const metadata = {
-    title: "Case Studies | MEHTALOGY LABS",
+    title: "Case Studies | Mehtalogy LABS",
     description:
-        "Explore MEHTALOGY LABS real-world engineering, cloud, AI, and IIoT case studies demonstrating tangible business outcomes.",
+        "Explore Mehtalogy LABS real-world engineering, cloud, AI, and IIoT case studies demonstrating tangible business outcomes.",
 };

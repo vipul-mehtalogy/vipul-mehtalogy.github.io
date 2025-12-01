@@ -5,9 +5,9 @@ import Breadcrumb from "@/components/BreadcrumbItem";
 import Mehtalogy from "@/components/Mehtalogy";
 
 export const metadata = {
-  title: "Case Study: Food Traceability & Safety | MEHTALOGY LABS Technology Partner",
+  title: "Case Study: Food Traceability & Safety | Mehtalogy LABS Technology Partner",
   description:
-    "How MEHTALOGY LABS built a geo-replicated IIoT platform using Azure, AKS, and Istio to deliver end-to-end food traceability, compliance, and real-time monitoring.",
+    "How Mehtalogy LABS built a geo-replicated IIoT platform using Azure, AKS, and Istio to deliver end-to-end food traceability, compliance, and real-time monitoring.",
   keywords: [
     "food traceability",
     "food safety",
@@ -17,7 +17,7 @@ export const metadata = {
     "Istio service mesh",
     "compliance platform",
     "geo-replicated IoT",
-    "MEHTALOGY LABS Technology Partner"
+    "Mehtalogy LABS Technology Partner"
   ],
 };
 

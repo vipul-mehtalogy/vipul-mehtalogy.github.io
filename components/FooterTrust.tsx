@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin, FaGithub, FaGlobe } from "react-icons/fa";
 import Image from "next/image";
@@ -8,12 +6,8 @@ import Mehtalogy from "@/components/Mehtalogy"
 
 export default function Footer() {
   return (
-    <footer className="bg-bg-dark  py-12 border-t border-border-color">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-
-        {/* ======================================================
-           BRAND + SHORT MISSION
-        ======================================================= */}
+    <footer className="mt-12 px-4 py-12 bg-accent">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-[2fr_1fr_2fr] gap-10 p-2">
         <div className="space-y-4">
           <Link href="/" className="hover:textde text-light flex items-center gap-3">
             <Image
@@ -24,8 +18,8 @@ export default function Footer() {
               className="object-contain"
             />
             <h1 className="">
-                          <Mehtalogy />
-                        </h1>
+              <Mehtalogy />
+            </h1>
           </Link>
           <p className="text-sm leading-relaxed">
             Your dedicated <strong className="text-accent">Technology Partner</strong> —
@@ -33,10 +27,6 @@ export default function Footer() {
             digital transformation for SMEs & enterprises.
           </p>
         </div>
-
-        {/* ======================================================
-            QUICK NAVIGATION
-        ===========================================<br />============ */}
         <nav>
           <h4 className="text-lg mb-4  pb-2">
             Quick Links
@@ -51,10 +41,6 @@ export default function Footer() {
               ))}
           </ul>
         </nav>
-
-        {/* ======================================================
-            CONTACT INFORMATION + ICONS
-        ======================================================= */}
         <address className="not-italic">
           <h4 className="text-lg   mb-4  pb-2">
             Contact Us
@@ -73,7 +59,7 @@ export default function Footer() {
               <a href="tel:+919424932197" className=" transition">
                 +91 94249 32197
               </a>
-            </li> mb-4  pb-
+            </li>
 
             <li className="flex items-start gap-3">
               <FaMapMarkerAlt className="text-muted text-lg mt-1" />
@@ -98,11 +84,7 @@ export default function Footer() {
           </div>
         </address>
       </div>
-
-      {/* ======================================================
-          FOOTER BOTTOM
-      ======================================================= */}
-      <div className="text-center text-xs text-muted mt-8 pt-6 border-t border-border-color">
+      <div className="text-center text-xs text-muted mt-8 pt-6">
         © {new Date().getFullYear()} Mehtalogy — All Rights Reserved.
       </div>
     </footer>

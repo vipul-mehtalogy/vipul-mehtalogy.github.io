@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = await getBlogBySlug(slug.slug);
 
   return {
-    title: `${post.title} | MEHTALOGY LABS`,
+    title: `${post.title} | Mehtalogy LABS`,
     description: post.summary || post.title,
   };
 }

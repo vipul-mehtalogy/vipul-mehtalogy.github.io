@@ -1,8 +1,4 @@
-"use client";
-
 import Link from "next/link";
-
-
 interface BreadcrumbItem {
   name: string;
   href?: string;
@@ -13,7 +9,7 @@ export default function Breadcrumb({ items }: { items: BreadcrumbItem[] }) {
   return (
     <nav
       aria-label="Breadcrumb"
-      className="flex items-center space-x-1 text-sm text-muted-foreground mb-4"
+      className="flex items-center space-x-1  mb-4 px-6"
     >
       
       {items.map((item, i) => (
