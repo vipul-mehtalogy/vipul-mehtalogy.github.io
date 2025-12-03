@@ -13,7 +13,7 @@ export interface BlogPost extends BlogMeta {
 
 const BLOG_DIR = path.join(process.cwd(), "content/blogs");
 
-export function getAllBlogs(): BlogMeta[] {    
+export function getAllBlogPosts(): BlogMeta[] {    
     const dirs = fs.readdirSync(BLOG_DIR);
 
     const blogs = dirs.map((slug) => {
@@ -35,7 +35,7 @@ export function getAllBlogs(): BlogMeta[] {
     return blogs.sort((a, b) => +new Date(b.date) - +new Date(a.date));
 }
 
-export async function getBlogBySlug(slug: string){
+export async function getBlogPostBySlug(slug: string){
     const filePath = path.join(BLOG_DIR, slug, "index.md");
     const file = fs.readFileSync(filePath, "utf-8");
 

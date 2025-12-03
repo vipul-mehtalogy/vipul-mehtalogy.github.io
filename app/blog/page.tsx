@@ -1,19 +1,17 @@
-// app/blogs/page.tsx
 import Link from "next/link";
-import { getAllBlogs } from "@/lib/blogs";
-
+import { getAllBlogPosts } from "@/lib/blogUtil";
 import Breadcrumb from "@/components/BreadcrumbItem";
+
 export const metadata = {
   title: "Tech Blogs | Mehtalogy LABS",
   description: "Technical blogs on Cloud, Integration, IIoT, Architecture, DevOps, and Software Engineering by Mehtalogy LABS.",
 };
 
-export default function BlogListPage() {
-  const blogs = getAllBlogs();
+export default function BlogPosts() {
+  const blogs = getAllBlogPosts();
 
   return (
     <main className="container mx-auto px-6 ">
-{/* import Breadcrumb from "@/components/BreadcrumbItem"; */}
       <Breadcrumb items={[{ name: "Home", href: "/" }, { name: "Blogs" }]} />
       <h1 className="text-4xl font-bold mb-10">Blogs</h1>
 
@@ -21,7 +19,7 @@ export default function BlogListPage() {
         {blogs.map((b) => (
           <Link
             key={b.slug}
-            href={`/blogs/${b.slug}`}
+            href={`/blog/${b.slug}`}
             className="block p-6 rounded-xl border hover:shadow-md transition"
           >
             <h2 className="text-2xl font-semibold">{b.title}</h2>

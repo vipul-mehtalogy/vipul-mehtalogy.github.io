@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# **Mehtalogy Labs — Technology Partner for Modern Businesses**
 
-## Getting Started
+[**🌐 Visit Mehtalogy Labs → mehtalogy.in**](https://mehtalogy.in)
 
-First, run the development server:
+Mehtalogy Labs is a long-term technology partner for SMEs and enterprises, helping operational businesses modernize, automate, and scale. We specialize in cloud engineering, platform development, IIoT, and data-driven systems designed for reliability and real-world operations.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 What We Do
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Mehtalogy Labs works across the full technology lifecycle — from architecture to delivery to ongoing stewardship.  
+Our focus includes:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### **Cloud Engineering & Infra**
+- Cloud-agnostic architecture (AWS, Azure, GCP)  
+- Kubernetes, containers, serverless, DevOps, GitOps  
+- Secure, compliant (HIPAA/BFSI-aware) design principles  
 
-## Learn More
+### **Modernization & Integration**
+- Legacy-to-cloud migrations  
+- System integrations (ERP, on-premise, APIs, vendor platforms)  
+- High-availability, geo-replicated platforms  
 
-To learn more about Next.js, take a look at the following resources:
+### **Industrial IoT (IIoT) & Analytics**
+- Telemetry pipelines, device integration  
+- Real-time dashboards for operations  
+- Anomaly detection and event processing  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### **AI, OCR & Automation**
+- Document extraction workflows  
+- Knowledge processing for enterprises  
+- Internal chatbots and workflow automation  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧩 Why Teams Work With Us
+- **We embed with operations teams** — solving problems grounded in real-day workflows.  
+- **Speed + governance** — accelerators that ensure safe, production-first delivery.  
+- **End-to-end ownership** — from architecture to L3 support and optimization cycles.  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🏢 Selected Clients
+
+### **Sapna Shri Jewellers**  
+Custom retail platform, real-time pricing automation, digital catalogue, customer engagement.  
+🔗 https://sapnashrijewellers.in  
+
+---
+
+## 📦 Representative Work
+
+Below are examples of the types of systems we build (see full case studies on the website):
+
+- Real-time pricing engines  
+- Telemetry dashboards for factories  
+- Multi-cloud migration accelerators  
+- Automated document-processing pipelines  
+- Operations command centers  
+- PWA-based retail systems  
+- API-first backend platforms  
+
+More case studies → https://mehtalogy.in/case-studies
+
+---
+
+## 🛠️ Technologies We Use
+
+Azure • AWS • Kubernetes • Docker • .NET • Node.js • React • Python • Redis • Istio • CosmosDB and more.
+
+---
+
+## 🤝 Work With Us
+
+If you're scaling operations or modernizing your tech stack, Mehtalogy Labs can help you build dependable systems that grow with your business.
+
+📩 vipul@mehtalogy.in  
+📞 +91 94249 32197  
+🌐 https://mehtalogy.in  

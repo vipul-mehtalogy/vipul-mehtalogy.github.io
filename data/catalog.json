@@ -1,9 +1,9 @@
 {  
     "navLinks": [
-    {"text": "Home", "link": "/" },
-    {"text": "About Us", "link": "/about" },
-    {"text": "Services", "link": "/services" },
-    {"text": "Case Studies", "link": "/case-studies" },
-    {"text": "Blogs", "link": "/blogs" }
+    {"text": "Home", "link": "/", "nav":true },    
+    {"text": "Services", "link": "/services" , "nav":true},
+    {"text": "Case Studies", "link": "/case-studies" , "nav":true},
+    {"text": "About Us", "link": "/about" , "nav":true},
+    {"text": "Blog", "link": "/blog" , "nav":false}
   ]
 }

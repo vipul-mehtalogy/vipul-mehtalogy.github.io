@@ -1,7 +1,7 @@
 // app/blogs/[slug]/page.tsx
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getAllSlugs, getBlogBySlug } from "@/lib/blogs";
+import { getAllSlugs, getBlogBySlug } from "@/lib/blogUtil";
 import Breadcrumb from "@/components/BreadcrumbItem"; 
 export async function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));

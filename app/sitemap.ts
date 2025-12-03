@@ -1,6 +1,6 @@
 export const dynamic = "force-static";
 
-import { getAllBlogs } from "@/lib/blogs";
+import { getAllBlogs } from "@/lib/blogUtil";
 import type { BlogMeta } from "@/data/types";
 
 

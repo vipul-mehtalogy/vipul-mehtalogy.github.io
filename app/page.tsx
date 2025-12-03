@@ -3,9 +3,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import * as FaIcons from "react-icons/fa";
-import {services} from "@/data/services.json"
-import {caseStudies} from "@/data/case-studies.json"
-import {Service} from "@/data/types"
+import { services } from "@/data/services.json"
+import { caseStudies } from "@/data/case-studies.json"
+import { Service } from "@/data/types"
+import Mehtalogy from "@/components/Mehtalogy"
 
 
 export default function Home() {
@@ -16,14 +17,19 @@ export default function Home() {
       <section className="py-2 bg-transparent">
         <div className="container mx-auto max-w-content px-6">
           <div className="grid md:grid-cols-2 gap-10 items-center">
-            <div>             
+            <div>
 
-              <h1 className="h1 mb-4">
-                We join your team as your long-term technology partner — cloud, integration, and product delivery.
-              </h1>
+              <h2 className="h1 mb-4">
+                Your long-term technology partner — cloud, integration, and product delivery.
+              </h2>
 
-              <p className="lead mb-6">
-                Mehtalogy helps operational businesses modernize systems, build reliable cloud platforms, and deliver data-driven
+              <b>Proven with:</b>
+              <ol className="list-disc pl-5">
+                <li>490+ apps migrated without downtime</li>
+                <li>5+ industries served</li>
+                <li> Production-grade security frameworks in HIPAA/BFSI environments</li>
+              </ol><p className="lead mb-6">
+                <Mehtalogy /> helps operational businesses modernize systems, build reliable cloud platforms, and deliver data-driven
                 outcomes. From architecture and migrations to IIoT and AI — we run with your ops teams to make technology dependable.
               </p>
 
@@ -38,7 +44,7 @@ export default function Home() {
                 </Link>
               </div>
 
-              <div className="mt-8 flex flex-wrap gap-6 items-center text-sm ">
+              {/* <div className="mt-8 flex flex-wrap gap-6 items-center text-sm ">
                 <div className="flex items-center gap-3">
                   <Image src="/img/trust.png" alt="Trusted" width={28} height={28} />
                   <span>Trusted by enterprise engineering teams</span>
@@ -47,7 +53,7 @@ export default function Home() {
                   <Image src="/img/shield.png" alt="Security" width={28} height={28} />
                   <span>Security-first, compliance-aware (HIPAA, BFSI)</span>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="max-w-md mx-auto">
@@ -73,7 +79,7 @@ export default function Home() {
       </section>
 
       {/* SERVICES */}
-      <section className="py-16 bg-bg-light">
+      <section className="py-6 bg-bg-light rounded-2xl">
         <div className="container mx-auto max-w-content px-6">
           <h2 className="h2 mb-6">Capabilities</h2>
           <p className="mb-8">
@@ -81,24 +87,24 @@ export default function Home() {
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
-            {services.map((s:Service) =>{
-            const Icon = (FaIcons as Record<string, React.ElementType>)[s.icon];
-            return(
-              <article key={s.title} className="card card-elevated p-5">
-                <div className="flex items-start gap-4">
-                  <div className="p-2 rounded-lg bg-accent/10 flex items-center justify-center">
-                    <Icon className="text-3xl text-primary"/>
-                    {/* <Image src={s.icon} alt="" width={28} height={28} /> */}
+            {services.map((s: Service) => {
+              const Icon = (FaIcons as Record<string, React.ElementType>)[s.icon];
+              return (
+                <article key={s.title} className="card card-elevated p-5">
+                  <div className="flex items-start gap-4">
+                    <div className="p-2 rounded-lg bg-accent/10 flex items-center justify-center">
+                      <Icon className="text-3xl text-primary" />
+                      {/* <Image src={s.icon} alt="" width={28} height={28} /> */}
+                    </div>
+                    <div>
+                      <h3 className="font-semibold">{s.title}</h3>
+                      <p className="mt-2">{s.desc}</p>
+                      <Link href={`/services/${s.slug}`} className="link mt-3 inline-block">
+                        Learn more →
+                      </Link>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="font-semibold">{s.title}</h3>
-                    <p className="mt-2">{s.desc}</p>
-                    <Link href={`/services/${s.slug}`} className="link mt-3 inline-block">
-                      Learn more →
-                    </Link>
-                  </div>
-                </div>
-              </article>            );
+                </article>);
             })}
           </div>
         </div>
@@ -117,7 +123,14 @@ export default function Home() {
 
             <div className="card p-6">
               <h4 className="font-semibold mb-2">Speed without risk</h4>
-              <p className="">Reusable accelerators and governance to migrate fast while keeping production safe.</p>
+              <p className="">Reusable accelerators and governance to migrate fast while keeping production safe.</p> <br/>
+              <b>Examples:</b>
+              <ul className="list-disc pl-5">
+                <li>Zero vendor lock-in</li>
+                <li>Cloud agnostic deployment is auditable & repeatable</li>
+<li>Security + compliance by design</li>
+<li>Production-first engineering</li>
+              </ul>
             </div>
 
             <div className="card p-6">
@@ -129,7 +142,7 @@ export default function Home() {
       </section>
 
       {/* CASE STUDIES */}
-      <section className="py-16 bg-bg-accent">
+      <section className="py-6 bg-bg-accent rounded-2xl">
         <div className="container mx-auto max-w-content px-6">
           <h2 className="h2 mb-6">Selected case studies</h2>
           <div className="grid md:grid-cols-2 gap-6">
@@ -191,7 +204,7 @@ export default function Home() {
       </section> */}
 
       {/* ---------------- CTA SECTION ---------------- */}
-      <section className="py-20 px-6 bg-light text-center">
+      <section className="py-20 px-6 bg-light text-center rounded-2xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Let’s Build Your Next Innovation</h2>
         <p className="text-lg mb-8 max-w-2xl mx-auto">
           Whether you are scaling operations or modernizing your tech stack, Mehtalogy is ready to partner with you.
